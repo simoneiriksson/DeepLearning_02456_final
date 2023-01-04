@@ -76,13 +76,13 @@ cprint(f"Using device: {device}", logfile)
 #                                                        logfile = logfile)
 
 # Settings for handing in:
-images, metadata, mapping = read_metadata_and_images(use_server_path = True, \
+images, metadata, metadata_all, mapping = read_metadata_and_images(use_server_path = True, \
                                                         load_images_from_individual_files = True, 
                                                         load_subset_of_images = None, 
                                                         save_images_to_singlefile = False,
                                                         shuffle = False,
                                                         logfile = logfile)
-                                                        )
+                                                        
 
 # With the below command, we normalize all the images, image- and channel-wise.
 # Alternative, this can be uncommented and like in the Lafarge article, we can do batchwise normalization
