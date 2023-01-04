@@ -2,7 +2,7 @@
 
 Authors: Andrea Valletta (S180768), Julia Cathrine Youngman (S123540) and Simon Daniel Eiriksson (S180722)
 
-This repository contains code and some trained models for the final project in the course Deep Learning 02456 at DTU Compute, Fall 2022.
+This repository contains code and some trained models for the final project in the course Deep Learning 02456 at DTU Compute, Fall 2022. We have not submitted a Jupyter Notebook since the necesary compute ressources to run this code are only available at compute clusters.
 
 ## Prerequisites
 The code has been run using the following modules/versions:
