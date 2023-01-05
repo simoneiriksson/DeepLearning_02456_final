@@ -146,19 +146,24 @@ def moa_confusion_matrix(targets, predictions):
     confusion_matrix = classes  
     return confusion_matrix
 
+
 def Accuracy(confusion_matrix):
-    class_accuracy = 100*confusion_matrix.diagonal()/confusion_matrix.sum(1)
-    class_accuracy = class_accuracy.mean()
+    class_accuracy = 100*confusion_matrix.diagonal().sum()/confusion_matrix.sum()
+    #class_accuracy = class_accuracy.mean()
     return class_accuracy
 
+def Accuracy_old(confusion_matrix):
+    class_accuracy = confusion_matrix.diagonal()/confusion_matrix.sum(1)
+    class_accuracy = class_accuracy.mean()
+    return class_accuracy * 100
     
 def precision(confusion_matrix):
     truepos = np.diag(confusion_matrix)
-    precision = truepos / np.sum(confusion_matrix, axis=0)
-    return precision.mean() * 100
+    precision = truepos.sum() / np.sum(confusion_matrix, axis=0)
+    return precision * 100
 
 
 def recall(confusion_matrix):
     truepos = np.diag(confusion_matrix)
-    recall = truepos / np.sum(confusion_matrix, axis=1)
-    return recall.mean() * 100
+    recall = truepos.sum() / np.sum(confusion_matrix, axis=1)
+    return recall * 100

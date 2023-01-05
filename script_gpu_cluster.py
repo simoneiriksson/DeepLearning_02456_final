@@ -73,7 +73,7 @@ cprint("VAE Configs", logfile)
 # models to choose from: 'SparseVAEGAN', 'CytoVAEGAN', 'CytoVAE', 'SparseVAE'
 # start another training session
 params = {
-    'num_epochs' : 50,
+    'num_epochs' : 10,
     'batch_size' : min(64, len(train_set)),
     'learning_rate' : 1e-3,
     'weight_decay' : 1e-3,
@@ -139,8 +139,7 @@ del images
 #                                                        save_images_to_singlefile = False,
 #                                                        shuffle = False,
 #                                                        logfile = logfile)
-
-# Settings for handing in:
+# for hand-ind
 images, metadata, metadata_all, mapping = read_metadata_and_images(use_server_path = True, \
                                                         load_images_from_individual_files = True, 
                                                         load_subset_of_images = None, 

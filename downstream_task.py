@@ -72,7 +72,7 @@ def downstream_task(vae, metadata, images, mapping, device, output_folder, logfi
     #### PLOT CONFUSION MATRIX ####
     confusion_matrix = moa_confusion_matrix(targets, predictions)
     cprint(confusion_matrix, logfile)
-    df_cm = pd.DataFrame(confusion_matrix/np.sum(confusion_matrix) *100, index = [i for i in mapping],
+    df_cm = pd.DataFrame(confusion_matrix, index = [i for i in mapping],
                             columns = [i for i in mapping])
     plt.figure(figsize = (12,7))
     cm = sns.heatmap(df_cm, annot=True)
@@ -82,11 +82,12 @@ def downstream_task(vae, metadata, images, mapping, device, output_folder, logfi
 
 
     #### PRINT ACCURACY ####
-    prec = precision(confusion_matrix)
+    #prec = precision(confusion_matrix)
+    #acc_old = Accuracy_old(confusion_matrix)
     acc = Accuracy(confusion_matrix)
-    rec = recall(confusion_matrix)
+    #rec = recall(confusion_matrix)
     cprint("Model Accuracy: {}".format(acc), logfile)
-    cprint("Model Precision: {}".format(prec), logfile) 
-    cprint("Model Recall: {}".format(rec), logfile)
+    #cprint("Model Precision: {}".format(prec), logfile) 
+    #cprint("Model Recall: {}".format(rec), logfile)
     #cprint("Model F1: {}".format(2 * (precision(confusion_matrix) * recall(confusion_matrix))), logfile)
-    cprint("Model F1: {}".format(2 * (prec * rec) / (prec+ rec)), logfile)
+    #cprint("Model F1: {}".format(2 * (prec * rec) / (prec+ rec)), logfile)
