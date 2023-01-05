@@ -1,0 +1,963 @@
+21:17:12 | output_folder is: dump/outputs_2023-01-02 - 21-17-12/
+21:17:12 | Using device: cuda:0
+21:17:15 | Using all metadata
+21:17:15 | loaded metadata
+21:17:15 | loading images
+21:17:15 | Loading images from images.pt file
+21:21:06 | loaded images
+21:21:23 | VAE Configs
+21:21:23 | params: {'num_epochs': 50, 'batch_size': 64, 'learning_rate': 0.001, 'weight_decay': 0.001, 'image_shape': array([ 3, 68, 68]), 'latent_features': 256, 'model_type': 'CytoVAEGAN', 'beta': 1.0, 'p_norm': 2.0}
+21:21:32 | VAE Training
+21:26:01 | 
+
+21:26:01 | epoch: 0/50
+21:26:01 | training 	| image_loss: 168.3648, 	kl_div: 380.7152, 	disc_loss: 0.1415, 	disc_repr_loss: 6306.4448, 	
+21:26:01 | evaluation 	| image_loss: 111.3967, 	kl_div: 439.5422, 	disc_loss: 0.6628, 	disc_repr_loss: 4011.5625, 	
+21:26:02 | training Discriminator accurracy 	| disc_false_negatives: 18621.0000, 	disc_true_positives: 420931.0000, 	disc_true_negatives: 421127.0000, 	disc_false_positives: 18425.0000, 	
+21:26:02 | evaluation Discriminator accurracy 	| disc_false_negatives: 16892.0000, 	disc_true_positives: 31947.0000, 	disc_true_negatives: 27905.0000, 	disc_false_positives: 20934.0000, 	
+21:30:25 | 
+
+21:30:25 | epoch: 1/50
+21:30:26 | training 	| image_loss: 109.3320, 	kl_div: 400.7473, 	disc_loss: 0.0530, 	disc_repr_loss: 3298.8235, 	
+21:30:26 | evaluation 	| image_loss: 106.0574, 	kl_div: 377.9934, 	disc_loss: 0.8758, 	disc_repr_loss: 2977.0984, 	
+21:30:26 | training Discriminator accurracy 	| disc_false_negatives: 6062.0000, 	disc_true_positives: 433490.0000, 	disc_true_negatives: 432672.0000, 	disc_false_positives: 6880.0000, 	
+21:30:26 | evaluation Discriminator accurracy 	| disc_false_negatives: 45159.0000, 	disc_true_positives: 3680.0000, 	disc_true_negatives: 45976.0000, 	disc_false_positives: 2863.0000, 	
+21:34:50 | 
+
+21:34:50 | epoch: 2/50
+21:34:50 | training 	| image_loss: 100.6363, 	kl_div: 339.0784, 	disc_loss: 0.0747, 	disc_repr_loss: 2399.4839, 	
+21:34:50 | evaluation 	| image_loss: 80.5941, 	kl_div: 346.9554, 	disc_loss: 0.7700, 	disc_repr_loss: 2223.7229, 	
+21:34:51 | training Discriminator accurracy 	| disc_false_negatives: 9098.0000, 	disc_true_positives: 430454.0000, 	disc_true_negatives: 428721.0000, 	disc_false_positives: 10831.0000, 	
+21:34:51 | evaluation Discriminator accurracy 	| disc_false_negatives: 5636.0000, 	disc_true_positives: 43203.0000, 	disc_true_negatives: 3739.0000, 	disc_false_positives: 45100.0000, 	
+21:39:15 | 
+
+21:39:15 | epoch: 3/50
+21:39:15 | training 	| image_loss: 93.8602, 	kl_div: 330.8317, 	disc_loss: 0.0705, 	disc_repr_loss: 2267.3948, 	
+21:39:15 | evaluation 	| image_loss: 78.5998, 	kl_div: 324.2665, 	disc_loss: 0.8875, 	disc_repr_loss: 1303.4509, 	
+21:39:16 | training Discriminator accurracy 	| disc_false_negatives: 8996.0000, 	disc_true_positives: 430556.0000, 	disc_true_negatives: 429476.0000, 	disc_false_positives: 10076.0000, 	
+21:39:16 | evaluation Discriminator accurracy 	| disc_false_negatives: 29918.0000, 	disc_true_positives: 18921.0000, 	disc_true_negatives: 30886.0000, 	disc_false_positives: 17953.0000, 	
+21:43:39 | 
+
+21:43:39 | epoch: 4/50
+21:43:40 | training 	| image_loss: 92.8170, 	kl_div: 318.6531, 	disc_loss: 0.0748, 	disc_repr_loss: 2232.9585, 	
+21:43:40 | evaluation 	| image_loss: 82.7605, 	kl_div: 335.0807, 	disc_loss: 0.7677, 	disc_repr_loss: 2582.1997, 	
+21:43:41 | training Discriminator accurracy 	| disc_false_negatives: 9384.0000, 	disc_true_positives: 430168.0000, 	disc_true_negatives: 430093.0000, 	disc_false_positives: 9459.0000, 	
+21:43:41 | evaluation Discriminator accurracy 	| disc_false_negatives: 33507.0000, 	disc_true_positives: 15332.0000, 	disc_true_negatives: 37193.0000, 	disc_false_positives: 11646.0000, 	
+21:48:04 | 
+
+21:48:04 | epoch: 5/50
+21:48:04 | training 	| image_loss: 94.4044, 	kl_div: 306.7268, 	disc_loss: 0.0576, 	disc_repr_loss: 2300.1348, 	
+21:48:04 | evaluation 	| image_loss: 83.3866, 	kl_div: 309.2967, 	disc_loss: 0.8790, 	disc_repr_loss: 2519.7861, 	
+21:48:05 | training Discriminator accurracy 	| disc_false_negatives: 6965.0000, 	disc_true_positives: 432587.0000, 	disc_true_negatives: 432485.0000, 	disc_false_positives: 7067.0000, 	
+21:48:05 | evaluation Discriminator accurracy 	| disc_false_negatives: 37180.0000, 	disc_true_positives: 11659.0000, 	disc_true_negatives: 33698.0000, 	disc_false_positives: 15141.0000, 	
+21:52:29 | 
+
+21:52:29 | epoch: 6/50
+21:52:29 | training 	| image_loss: 96.1847, 	kl_div: 292.3056, 	disc_loss: 0.0517, 	disc_repr_loss: 2333.3865, 	
+21:52:29 | evaluation 	| image_loss: 78.2882, 	kl_div: 286.3811, 	disc_loss: 0.7058, 	disc_repr_loss: 1680.3531, 	
+21:52:30 | training Discriminator accurracy 	| disc_false_negatives: 5767.0000, 	disc_true_positives: 433785.0000, 	disc_true_negatives: 432283.0000, 	disc_false_positives: 7269.0000, 	
+21:52:30 | evaluation Discriminator accurracy 	| disc_false_negatives: 27112.0000, 	disc_true_positives: 21727.0000, 	disc_true_negatives: 29308.0000, 	disc_false_positives: 19531.0000, 	
+21:56:53 | 
+
+21:56:53 | epoch: 7/50
+21:56:54 | training 	| image_loss: 88.0795, 	kl_div: 273.8011, 	disc_loss: 0.0800, 	disc_repr_loss: 1817.6436, 	
+21:56:54 | evaluation 	| image_loss: 78.6408, 	kl_div: 300.9017, 	disc_loss: 0.8758, 	disc_repr_loss: 2192.9832, 	
+21:56:55 | training Discriminator accurracy 	| disc_false_negatives: 9194.0000, 	disc_true_positives: 430358.0000, 	disc_true_negatives: 429503.0000, 	disc_false_positives: 10049.0000, 	
+21:56:55 | evaluation Discriminator accurracy 	| disc_false_negatives: 43949.0000, 	disc_true_positives: 4890.0000, 	disc_true_negatives: 45569.0000, 	disc_false_positives: 3270.0000, 	
+22:01:18 | 
+
+22:01:18 | epoch: 8/50
+22:01:19 | training 	| image_loss: 89.8932, 	kl_div: 286.3861, 	disc_loss: 0.0392, 	disc_repr_loss: 2205.9446, 	
+22:01:19 | evaluation 	| image_loss: 80.3215, 	kl_div: 298.8061, 	disc_loss: 0.9575, 	disc_repr_loss: 2569.1208, 	
+22:01:20 | training Discriminator accurracy 	| disc_false_negatives: 3860.0000, 	disc_true_positives: 435692.0000, 	disc_true_negatives: 435908.0000, 	disc_false_positives: 3644.0000, 	
+22:01:20 | evaluation Discriminator accurracy 	| disc_false_negatives: 44010.0000, 	disc_true_positives: 4829.0000, 	disc_true_negatives: 43894.0000, 	disc_false_positives: 4945.0000, 	
+22:05:43 | 
+
+22:05:43 | epoch: 9/50
+22:05:43 | training 	| image_loss: 97.8437, 	kl_div: 286.6017, 	disc_loss: 0.0309, 	disc_repr_loss: 2434.3394, 	
+22:05:43 | evaluation 	| image_loss: 89.9421, 	kl_div: 275.0956, 	disc_loss: 0.9212, 	disc_repr_loss: 1793.9423, 	
+22:05:44 | training Discriminator accurracy 	| disc_false_negatives: 2654.0000, 	disc_true_positives: 436898.0000, 	disc_true_negatives: 436701.0000, 	disc_false_positives: 2851.0000, 	
+22:05:44 | evaluation Discriminator accurracy 	| disc_false_negatives: 44411.0000, 	disc_true_positives: 4428.0000, 	disc_true_negatives: 44051.0000, 	disc_false_positives: 4788.0000, 	
+22:10:08 | 
+
+22:10:08 | epoch: 10/50
+22:10:08 | training 	| image_loss: 93.7118, 	kl_div: 261.1100, 	disc_loss: 0.0661, 	disc_repr_loss: 1767.6268, 	
+22:10:08 | evaluation 	| image_loss: 77.0028, 	kl_div: 265.3271, 	disc_loss: 1.2567, 	disc_repr_loss: 1630.3313, 	
+22:10:09 | training Discriminator accurracy 	| disc_false_negatives: 8121.0000, 	disc_true_positives: 431431.0000, 	disc_true_negatives: 432439.0000, 	disc_false_positives: 7113.0000, 	
+22:10:09 | evaluation Discriminator accurracy 	| disc_false_negatives: 47543.0000, 	disc_true_positives: 1296.0000, 	disc_true_negatives: 47431.0000, 	disc_false_positives: 1408.0000, 	
+22:14:32 | 
+
+22:14:32 | epoch: 11/50
+22:14:32 | training 	| image_loss: 87.5459, 	kl_div: 267.7830, 	disc_loss: 0.0497, 	disc_repr_loss: 1711.9443, 	
+22:14:32 | evaluation 	| image_loss: 78.4397, 	kl_div: 283.0439, 	disc_loss: 1.2680, 	disc_repr_loss: 1778.4849, 	
+22:14:33 | training Discriminator accurracy 	| disc_false_negatives: 5135.0000, 	disc_true_positives: 434417.0000, 	disc_true_negatives: 434869.0000, 	disc_false_positives: 4683.0000, 	
+22:14:33 | evaluation Discriminator accurracy 	| disc_false_negatives: 45394.0000, 	disc_true_positives: 3445.0000, 	disc_true_negatives: 45468.0000, 	disc_false_positives: 3371.0000, 	
+22:18:57 | 
+
+22:18:57 | epoch: 12/50
+22:18:57 | training 	| image_loss: 92.0442, 	kl_div: 274.0301, 	disc_loss: 0.0305, 	disc_repr_loss: 1920.7842, 	
+22:18:57 | evaluation 	| image_loss: 82.6104, 	kl_div: 275.8644, 	disc_loss: 1.4343, 	disc_repr_loss: 1832.4895, 	
+22:18:58 | training Discriminator accurracy 	| disc_false_negatives: 2551.0000, 	disc_true_positives: 437001.0000, 	disc_true_negatives: 437240.0000, 	disc_false_positives: 2312.0000, 	
+22:18:58 | evaluation Discriminator accurracy 	| disc_false_negatives: 46700.0000, 	disc_true_positives: 2139.0000, 	disc_true_negatives: 46572.0000, 	disc_false_positives: 2267.0000, 	
+22:23:21 | 
+
+22:23:21 | epoch: 13/50
+22:23:22 | training 	| image_loss: 92.9239, 	kl_div: 260.3860, 	disc_loss: 0.0291, 	disc_repr_loss: 1735.3430, 	
+22:23:22 | evaluation 	| image_loss: 82.8253, 	kl_div: 271.0674, 	disc_loss: 0.9616, 	disc_repr_loss: 1528.0671, 	
+22:23:22 | training Discriminator accurracy 	| disc_false_negatives: 2337.0000, 	disc_true_positives: 437215.0000, 	disc_true_negatives: 437434.0000, 	disc_false_positives: 2118.0000, 	
+22:23:22 | evaluation Discriminator accurracy 	| disc_false_negatives: 45995.0000, 	disc_true_positives: 2844.0000, 	disc_true_negatives: 46163.0000, 	disc_false_positives: 2676.0000, 	
+22:27:46 | 
+
+22:27:46 | epoch: 14/50
+22:27:46 | training 	| image_loss: 90.9636, 	kl_div: 248.2141, 	disc_loss: 0.0460, 	disc_repr_loss: 1540.3702, 	
+22:27:46 | evaluation 	| image_loss: 99.1889, 	kl_div: 275.1461, 	disc_loss: 0.7996, 	disc_repr_loss: 2067.8677, 	
+22:27:47 | training Discriminator accurracy 	| disc_false_negatives: 4711.0000, 	disc_true_positives: 434841.0000, 	disc_true_negatives: 434998.0000, 	disc_false_positives: 4554.0000, 	
+22:27:47 | evaluation Discriminator accurracy 	| disc_false_negatives: 37025.0000, 	disc_true_positives: 11814.0000, 	disc_true_negatives: 38588.0000, 	disc_false_positives: 10251.0000, 	
+22:32:10 | 
+
+22:32:10 | epoch: 15/50
+22:32:11 | training 	| image_loss: 90.3301, 	kl_div: 239.1477, 	disc_loss: 0.0724, 	disc_repr_loss: 1442.4208, 	
+22:32:11 | evaluation 	| image_loss: 79.9342, 	kl_div: 250.9587, 	disc_loss: 1.9222, 	disc_repr_loss: 1317.7444, 	
+22:32:11 | training Discriminator accurracy 	| disc_false_negatives: 7220.0000, 	disc_true_positives: 432332.0000, 	disc_true_negatives: 430106.0000, 	disc_false_positives: 9446.0000, 	
+22:32:11 | evaluation Discriminator accurracy 	| disc_false_negatives: 48605.0000, 	disc_true_positives: 234.0000, 	disc_true_negatives: 48561.0000, 	disc_false_positives: 278.0000, 	
+22:36:35 | 
+
+22:36:35 | epoch: 16/50
+22:36:35 | training 	| image_loss: 84.5189, 	kl_div: 224.8558, 	disc_loss: 0.0438, 	disc_repr_loss: 1135.5688, 	
+22:36:35 | evaluation 	| image_loss: 72.7883, 	kl_div: 231.3065, 	disc_loss: 1.3855, 	disc_repr_loss: 1161.0148, 	
+22:36:36 | training Discriminator accurracy 	| disc_false_negatives: 4735.0000, 	disc_true_positives: 434817.0000, 	disc_true_negatives: 435151.0000, 	disc_false_positives: 4401.0000, 	
+22:36:36 | evaluation Discriminator accurracy 	| disc_false_negatives: 47781.0000, 	disc_true_positives: 1058.0000, 	disc_true_negatives: 47872.0000, 	disc_false_positives: 967.0000, 	
+22:41:00 | 
+
+22:41:00 | epoch: 17/50
+22:41:00 | training 	| image_loss: 84.0378, 	kl_div: 222.7120, 	disc_loss: 0.0290, 	disc_repr_loss: 1152.4979, 	
+22:41:00 | evaluation 	| image_loss: 75.2273, 	kl_div: 217.0552, 	disc_loss: 1.3319, 	disc_repr_loss: 1090.7383, 	
+22:41:01 | training Discriminator accurracy 	| disc_false_negatives: 2521.0000, 	disc_true_positives: 437031.0000, 	disc_true_negatives: 437309.0000, 	disc_false_positives: 2243.0000, 	
+22:41:01 | evaluation Discriminator accurracy 	| disc_false_negatives: 44834.0000, 	disc_true_positives: 4005.0000, 	disc_true_negatives: 44769.0000, 	disc_false_positives: 4070.0000, 	
+22:45:24 | 
+
+22:45:24 | epoch: 18/50
+22:45:25 | training 	| image_loss: 84.9863, 	kl_div: 206.2872, 	disc_loss: 0.0263, 	disc_repr_loss: 999.9833, 	
+22:45:25 | evaluation 	| image_loss: 74.3146, 	kl_div: 201.4432, 	disc_loss: 1.4489, 	disc_repr_loss: 867.7503, 	
+22:45:26 | training Discriminator accurracy 	| disc_false_negatives: 2192.0000, 	disc_true_positives: 437360.0000, 	disc_true_negatives: 437628.0000, 	disc_false_positives: 1924.0000, 	
+22:45:26 | evaluation Discriminator accurracy 	| disc_false_negatives: 48200.0000, 	disc_true_positives: 639.0000, 	disc_true_negatives: 48332.0000, 	disc_false_positives: 507.0000, 	
+22:49:49 | 
+
+22:49:49 | epoch: 19/50
+22:49:49 | training 	| image_loss: 84.3191, 	kl_div: 204.2290, 	disc_loss: 0.0519, 	disc_repr_loss: 1002.7039, 	
+22:49:49 | evaluation 	| image_loss: 77.4609, 	kl_div: 206.7213, 	disc_loss: 1.4721, 	disc_repr_loss: 1277.7837, 	
+22:49:50 | training Discriminator accurracy 	| disc_false_negatives: 5396.0000, 	disc_true_positives: 434156.0000, 	disc_true_negatives: 433517.0000, 	disc_false_positives: 6035.0000, 	
+22:49:50 | evaluation Discriminator accurracy 	| disc_false_negatives: 46807.0000, 	disc_true_positives: 2032.0000, 	disc_true_negatives: 48425.0000, 	disc_false_positives: 414.0000, 	
+22:54:14 | 
+
+22:54:14 | epoch: 20/50
+22:54:14 | training 	| image_loss: 89.5795, 	kl_div: 205.7327, 	disc_loss: 0.0276, 	disc_repr_loss: 1139.5674, 	
+22:54:14 | evaluation 	| image_loss: 87.3979, 	kl_div: 196.1154, 	disc_loss: 0.7712, 	disc_repr_loss: 5851.0229, 	
+22:54:15 | training Discriminator accurracy 	| disc_false_negatives: 2407.0000, 	disc_true_positives: 437145.0000, 	disc_true_negatives: 437303.0000, 	disc_false_positives: 2249.0000, 	
+22:54:15 | evaluation Discriminator accurracy 	| disc_false_negatives: 12991.0000, 	disc_true_positives: 35848.0000, 	disc_true_negatives: 20074.0000, 	disc_false_positives: 28765.0000, 	
+22:58:38 | 
+
+22:58:38 | epoch: 21/50
+22:58:39 | training 	| image_loss: 88.4018, 	kl_div: 202.1682, 	disc_loss: 0.0355, 	disc_repr_loss: 1125.7166, 	
+22:58:39 | evaluation 	| image_loss: 85.5685, 	kl_div: 184.7737, 	disc_loss: 1.3474, 	disc_repr_loss: 886.2098, 	
+22:58:40 | training Discriminator accurracy 	| disc_false_negatives: 3890.0000, 	disc_true_positives: 435662.0000, 	disc_true_negatives: 435498.0000, 	disc_false_positives: 4054.0000, 	
+22:58:40 | evaluation Discriminator accurracy 	| disc_false_negatives: 47970.0000, 	disc_true_positives: 869.0000, 	disc_true_negatives: 48430.0000, 	disc_false_positives: 409.0000, 	
+23:03:03 | 
+
+23:03:03 | epoch: 22/50
+23:03:04 | training 	| image_loss: 88.0264, 	kl_div: 219.2448, 	disc_loss: 0.0780, 	disc_repr_loss: 1400.6210, 	
+23:03:04 | evaluation 	| image_loss: 71.5886, 	kl_div: 233.7614, 	disc_loss: 2.0443, 	disc_repr_loss: 1873.1227, 	
+23:03:05 | training Discriminator accurracy 	| disc_false_negatives: 8226.0000, 	disc_true_positives: 431326.0000, 	disc_true_negatives: 429980.0000, 	disc_false_positives: 9572.0000, 	
+23:03:05 | evaluation Discriminator accurracy 	| disc_false_negatives: 48795.0000, 	disc_true_positives: 44.0000, 	disc_true_negatives: 48806.0000, 	disc_false_positives: 33.0000, 	
+23:07:28 | 
+
+23:07:28 | epoch: 23/50
+23:07:29 | training 	| image_loss: 85.5629, 	kl_div: 217.8087, 	disc_loss: 0.0259, 	disc_repr_loss: 1438.2229, 	
+23:07:29 | evaluation 	| image_loss: 80.5098, 	kl_div: 205.2912, 	disc_loss: 2.0597, 	disc_repr_loss: 991.2161, 	
+23:07:30 | training Discriminator accurracy 	| disc_false_negatives: 2003.0000, 	disc_true_positives: 437549.0000, 	disc_true_negatives: 437393.0000, 	disc_false_positives: 2159.0000, 	
+23:07:30 | evaluation Discriminator accurracy 	| disc_false_negatives: 48766.0000, 	disc_true_positives: 73.0000, 	disc_true_negatives: 48706.0000, 	disc_false_positives: 133.0000, 	
+23:11:53 | 
+
+23:11:53 | epoch: 24/50
+23:11:54 | training 	| image_loss: 87.4017, 	kl_div: 213.8992, 	disc_loss: 0.1258, 	disc_repr_loss: 1093.5297, 	
+23:11:54 | evaluation 	| image_loss: 86.2290, 	kl_div: 242.7143, 	disc_loss: 1.4997, 	disc_repr_loss: 1007.7137, 	
+23:11:55 | training Discriminator accurracy 	| disc_false_negatives: 20593.0000, 	disc_true_positives: 418959.0000, 	disc_true_negatives: 419380.0000, 	disc_false_positives: 20172.0000, 	
+23:11:55 | evaluation Discriminator accurracy 	| disc_false_negatives: 5931.0000, 	disc_true_positives: 42908.0000, 	disc_true_negatives: 4348.0000, 	disc_false_positives: 44491.0000, 	
+23:16:18 | 
+
+23:16:18 | epoch: 25/50
+23:16:19 | training 	| image_loss: 86.5206, 	kl_div: 216.2766, 	disc_loss: 0.0485, 	disc_repr_loss: 1125.1183, 	
+23:16:19 | evaluation 	| image_loss: 74.6348, 	kl_div: 215.0596, 	disc_loss: 1.0746, 	disc_repr_loss: 751.0079, 	
+23:16:19 | training Discriminator accurracy 	| disc_false_negatives: 5461.0000, 	disc_true_positives: 434091.0000, 	disc_true_negatives: 434750.0000, 	disc_false_positives: 4802.0000, 	
+23:16:19 | evaluation Discriminator accurracy 	| disc_false_negatives: 47447.0000, 	disc_true_positives: 1392.0000, 	disc_true_negatives: 46827.0000, 	disc_false_positives: 2012.0000, 	
+23:20:43 | 
+
+23:20:43 | epoch: 26/50
+23:20:44 | training 	| image_loss: 88.1836, 	kl_div: 209.7309, 	disc_loss: 0.0311, 	disc_repr_loss: 1072.1182, 	
+23:20:44 | evaluation 	| image_loss: 79.7500, 	kl_div: 215.8740, 	disc_loss: 0.8654, 	disc_repr_loss: 990.3395, 	
+23:20:44 | training Discriminator accurracy 	| disc_false_negatives: 2975.0000, 	disc_true_positives: 436577.0000, 	disc_true_negatives: 437189.0000, 	disc_false_positives: 2363.0000, 	
+23:20:44 | evaluation Discriminator accurracy 	| disc_false_negatives: 42326.0000, 	disc_true_positives: 6513.0000, 	disc_true_negatives: 44096.0000, 	disc_false_positives: 4743.0000, 	
+23:25:08 | 
+
+23:25:08 | epoch: 27/50
+23:25:08 | training 	| image_loss: 88.8868, 	kl_div: 202.0353, 	disc_loss: 0.0406, 	disc_repr_loss: 1104.8754, 	
+23:25:08 | evaluation 	| image_loss: 79.0802, 	kl_div: 258.9979, 	disc_loss: 2.6002, 	disc_repr_loss: 2695.2881, 	
+23:25:09 | training Discriminator accurracy 	| disc_false_negatives: 4118.0000, 	disc_true_positives: 435434.0000, 	disc_true_negatives: 436072.0000, 	disc_false_positives: 3480.0000, 	
+23:25:09 | evaluation Discriminator accurracy 	| disc_false_negatives: 40950.0000, 	disc_true_positives: 7889.0000, 	disc_true_negatives: 32036.0000, 	disc_false_positives: 16803.0000, 	
+23:29:33 | 
+
+23:29:33 | epoch: 28/50
+23:29:33 | training 	| image_loss: 87.7906, 	kl_div: 212.4747, 	disc_loss: 0.0419, 	disc_repr_loss: 1201.3325, 	
+23:29:33 | evaluation 	| image_loss: 73.6858, 	kl_div: 219.8508, 	disc_loss: 0.9666, 	disc_repr_loss: 1043.6873, 	
+23:29:34 | training Discriminator accurracy 	| disc_false_negatives: 4441.0000, 	disc_true_positives: 435111.0000, 	disc_true_negatives: 436076.0000, 	disc_false_positives: 3476.0000, 	
+23:29:34 | evaluation Discriminator accurracy 	| disc_false_negatives: 24799.0000, 	disc_true_positives: 24040.0000, 	disc_true_negatives: 16966.0000, 	disc_false_positives: 31873.0000, 	
+23:33:58 | 
+
+23:33:58 | epoch: 29/50
+23:33:58 | training 	| image_loss: 88.1658, 	kl_div: 203.2057, 	disc_loss: 0.0254, 	disc_repr_loss: 1122.1719, 	
+23:33:58 | evaluation 	| image_loss: 74.9045, 	kl_div: 207.0453, 	disc_loss: 1.0401, 	disc_repr_loss: 832.4728, 	
+23:33:59 | training Discriminator accurracy 	| disc_false_negatives: 2246.0000, 	disc_true_positives: 437306.0000, 	disc_true_negatives: 437957.0000, 	disc_false_positives: 1595.0000, 	
+23:33:59 | evaluation Discriminator accurracy 	| disc_false_negatives: 31725.0000, 	disc_true_positives: 17114.0000, 	disc_true_negatives: 29553.0000, 	disc_false_positives: 19286.0000, 	
+23:38:23 | 
+
+23:38:23 | epoch: 30/50
+23:38:23 | training 	| image_loss: 87.4967, 	kl_div: 201.3053, 	disc_loss: 0.0304, 	disc_repr_loss: 1115.3423, 	
+23:38:23 | evaluation 	| image_loss: 71.9717, 	kl_div: 214.2795, 	disc_loss: 0.8677, 	disc_repr_loss: 1221.8458, 	
+23:38:24 | training Discriminator accurracy 	| disc_false_negatives: 2885.0000, 	disc_true_positives: 436667.0000, 	disc_true_negatives: 436954.0000, 	disc_false_positives: 2598.0000, 	
+23:38:24 | evaluation Discriminator accurracy 	| disc_false_negatives: 36582.0000, 	disc_true_positives: 12257.0000, 	disc_true_negatives: 38835.0000, 	disc_false_positives: 10004.0000, 	
+23:42:48 | 
+
+23:42:48 | epoch: 31/50
+23:42:48 | training 	| image_loss: 83.9465, 	kl_div: 210.6687, 	disc_loss: 0.0775, 	disc_repr_loss: 1227.5297, 	
+23:42:48 | evaluation 	| image_loss: 76.1025, 	kl_div: 218.9628, 	disc_loss: 0.8289, 	disc_repr_loss: 1378.4785, 	
+23:42:49 | training Discriminator accurracy 	| disc_false_negatives: 11131.0000, 	disc_true_positives: 428421.0000, 	disc_true_negatives: 428635.0000, 	disc_false_positives: 10917.0000, 	
+23:42:49 | evaluation Discriminator accurracy 	| disc_false_negatives: 33120.0000, 	disc_true_positives: 15719.0000, 	disc_true_negatives: 29903.0000, 	disc_false_positives: 18936.0000, 	
+23:47:13 | 
+
+23:47:13 | epoch: 32/50
+23:47:13 | training 	| image_loss: 85.4918, 	kl_div: 211.4294, 	disc_loss: 0.0435, 	disc_repr_loss: 1333.6035, 	
+23:47:13 | evaluation 	| image_loss: 83.2777, 	kl_div: 225.7125, 	disc_loss: 0.9064, 	disc_repr_loss: 1126.8032, 	
+23:47:14 | training Discriminator accurracy 	| disc_false_negatives: 4760.0000, 	disc_true_positives: 434792.0000, 	disc_true_negatives: 435498.0000, 	disc_false_positives: 4054.0000, 	
+23:47:14 | evaluation Discriminator accurracy 	| disc_false_negatives: 41094.0000, 	disc_true_positives: 7745.0000, 	disc_true_negatives: 43309.0000, 	disc_false_positives: 5530.0000, 	
+23:51:38 | 
+
+23:51:38 | epoch: 33/50
+23:51:38 | training 	| image_loss: 85.3914, 	kl_div: 210.0385, 	disc_loss: 0.0286, 	disc_repr_loss: 1412.3428, 	
+23:51:38 | evaluation 	| image_loss: 69.0901, 	kl_div: 222.9860, 	disc_loss: 1.1038, 	disc_repr_loss: 1347.1688, 	
+23:51:39 | training Discriminator accurracy 	| disc_false_negatives: 2587.0000, 	disc_true_positives: 436965.0000, 	disc_true_negatives: 437442.0000, 	disc_false_positives: 2110.0000, 	
+23:51:39 | evaluation Discriminator accurracy 	| disc_false_negatives: 48683.0000, 	disc_true_positives: 156.0000, 	disc_true_negatives: 46672.0000, 	disc_false_positives: 2167.0000, 	
+23:56:03 | 
+
+23:56:03 | epoch: 34/50
+23:56:04 | training 	| image_loss: 83.5745, 	kl_div: 206.9051, 	disc_loss: 0.0235, 	disc_repr_loss: 1399.8824, 	
+23:56:04 | evaluation 	| image_loss: 95.7422, 	kl_div: 238.4006, 	disc_loss: 0.9201, 	disc_repr_loss: 1684.3141, 	
+23:56:04 | training Discriminator accurracy 	| disc_false_negatives: 1719.0000, 	disc_true_positives: 437833.0000, 	disc_true_negatives: 438022.0000, 	disc_false_positives: 1530.0000, 	
+23:56:04 | evaluation Discriminator accurracy 	| disc_false_negatives: 37973.0000, 	disc_true_positives: 10866.0000, 	disc_true_negatives: 38076.0000, 	disc_false_positives: 10763.0000, 	
+00:00:28 | 
+
+00:00:28 | epoch: 35/50
+00:00:28 | training 	| image_loss: 84.5999, 	kl_div: 207.1189, 	disc_loss: 0.0254, 	disc_repr_loss: 1510.3143, 	
+00:00:28 | evaluation 	| image_loss: 76.4417, 	kl_div: 210.3485, 	disc_loss: 0.9257, 	disc_repr_loss: 1618.1470, 	
+00:00:29 | training Discriminator accurracy 	| disc_false_negatives: 1993.0000, 	disc_true_positives: 437559.0000, 	disc_true_negatives: 437650.0000, 	disc_false_positives: 1902.0000, 	
+00:00:29 | evaluation Discriminator accurracy 	| disc_false_negatives: 47642.0000, 	disc_true_positives: 1197.0000, 	disc_true_negatives: 44685.0000, 	disc_false_positives: 4154.0000, 	
+00:04:53 | 
+
+00:04:53 | epoch: 36/50
+00:04:53 | training 	| image_loss: 86.2880, 	kl_div: 197.7270, 	disc_loss: 0.0381, 	disc_repr_loss: 1289.7588, 	
+00:04:53 | evaluation 	| image_loss: 71.3278, 	kl_div: 223.1693, 	disc_loss: 1.2391, 	disc_repr_loss: 1451.7853, 	
+00:04:54 | training Discriminator accurracy 	| disc_false_negatives: 4529.0000, 	disc_true_positives: 435023.0000, 	disc_true_negatives: 435555.0000, 	disc_false_positives: 3997.0000, 	
+00:04:54 | evaluation Discriminator accurracy 	| disc_false_negatives: 48675.0000, 	disc_true_positives: 164.0000, 	disc_true_negatives: 48438.0000, 	disc_false_positives: 401.0000, 	
+00:09:18 | 
+
+00:09:18 | epoch: 37/50
+00:09:18 | training 	| image_loss: 83.8642, 	kl_div: 200.3453, 	disc_loss: 0.0278, 	disc_repr_loss: 1276.5297, 	
+00:09:18 | evaluation 	| image_loss: 80.8335, 	kl_div: 218.9825, 	disc_loss: 1.0821, 	disc_repr_loss: 886.6115, 	
+00:09:19 | training Discriminator accurracy 	| disc_false_negatives: 2414.0000, 	disc_true_positives: 437138.0000, 	disc_true_negatives: 437469.0000, 	disc_false_positives: 2083.0000, 	
+00:09:19 | evaluation Discriminator accurracy 	| disc_false_negatives: 46487.0000, 	disc_true_positives: 2352.0000, 	disc_true_negatives: 44045.0000, 	disc_false_positives: 4794.0000, 	
+00:13:43 | 
+
+00:13:43 | epoch: 38/50
+00:13:44 | training 	| image_loss: 82.1346, 	kl_div: 200.9939, 	disc_loss: 0.0256, 	disc_repr_loss: 1295.5770, 	
+00:13:44 | evaluation 	| image_loss: 70.5103, 	kl_div: 211.9196, 	disc_loss: 1.3079, 	disc_repr_loss: 1297.0530, 	
+00:13:45 | training Discriminator accurracy 	| disc_false_negatives: 1936.0000, 	disc_true_positives: 437616.0000, 	disc_true_negatives: 438073.0000, 	disc_false_positives: 1479.0000, 	
+00:13:45 | evaluation Discriminator accurracy 	| disc_false_negatives: 48311.0000, 	disc_true_positives: 528.0000, 	disc_true_negatives: 44999.0000, 	disc_false_positives: 3840.0000, 	
+00:18:08 | 
+
+00:18:08 | epoch: 39/50
+00:18:09 | training 	| image_loss: 76.8238, 	kl_div: 216.9764, 	disc_loss: 0.0263, 	disc_repr_loss: 1431.7256, 	
+00:18:09 | evaluation 	| image_loss: 73.5855, 	kl_div: 219.3726, 	disc_loss: 1.2643, 	disc_repr_loss: 1817.2567, 	
+00:18:10 | training Discriminator accurracy 	| disc_false_negatives: 2020.0000, 	disc_true_positives: 437532.0000, 	disc_true_negatives: 437785.0000, 	disc_false_positives: 1767.0000, 	
+00:18:10 | evaluation Discriminator accurracy 	| disc_false_negatives: 48811.0000, 	disc_true_positives: 28.0000, 	disc_true_negatives: 46160.0000, 	disc_false_positives: 2679.0000, 	
+00:22:33 | 
+
+00:22:33 | epoch: 40/50
+00:22:34 | training 	| image_loss: 79.7281, 	kl_div: 211.9755, 	disc_loss: 0.0254, 	disc_repr_loss: 1518.0649, 	
+00:22:34 | evaluation 	| image_loss: 70.5825, 	kl_div: 222.0804, 	disc_loss: 1.3307, 	disc_repr_loss: 1491.6841, 	
+00:22:35 | training Discriminator accurracy 	| disc_false_negatives: 1691.0000, 	disc_true_positives: 437861.0000, 	disc_true_negatives: 438105.0000, 	disc_false_positives: 1447.0000, 	
+00:22:35 | evaluation Discriminator accurracy 	| disc_false_negatives: 48767.0000, 	disc_true_positives: 72.0000, 	disc_true_negatives: 48439.0000, 	disc_false_positives: 400.0000, 	
+00:26:58 | 
+
+00:26:58 | epoch: 41/50
+00:26:59 | training 	| image_loss: 82.3911, 	kl_div: 205.4725, 	disc_loss: 0.0193, 	disc_repr_loss: 1521.4050, 	
+00:26:59 | evaluation 	| image_loss: 71.5138, 	kl_div: 207.2123, 	disc_loss: 1.1802, 	disc_repr_loss: 1312.4805, 	
+00:26:59 | training Discriminator accurracy 	| disc_false_negatives: 1070.0000, 	disc_true_positives: 438482.0000, 	disc_true_negatives: 438672.0000, 	disc_false_positives: 880.0000, 	
+00:26:59 | evaluation Discriminator accurracy 	| disc_false_negatives: 48802.0000, 	disc_true_positives: 37.0000, 	disc_true_negatives: 47338.0000, 	disc_false_positives: 1501.0000, 	
+00:31:23 | 
+
+00:31:23 | epoch: 42/50
+00:31:23 | training 	| image_loss: 80.7254, 	kl_div: 203.7323, 	disc_loss: 0.0224, 	disc_repr_loss: 1409.0439, 	
+00:31:23 | evaluation 	| image_loss: 69.7956, 	kl_div: 212.6038, 	disc_loss: 1.2304, 	disc_repr_loss: 1255.2189, 	
+00:31:24 | training Discriminator accurracy 	| disc_false_negatives: 1338.0000, 	disc_true_positives: 438214.0000, 	disc_true_negatives: 438407.0000, 	disc_false_positives: 1145.0000, 	
+00:31:24 | evaluation Discriminator accurracy 	| disc_false_negatives: 48774.0000, 	disc_true_positives: 65.0000, 	disc_true_negatives: 46776.0000, 	disc_false_positives: 2063.0000, 	
+00:35:47 | 
+
+00:35:47 | epoch: 43/50
+00:35:48 | training 	| image_loss: 79.8877, 	kl_div: 199.4872, 	disc_loss: 0.0190, 	disc_repr_loss: 1308.1320, 	
+00:35:48 | evaluation 	| image_loss: 75.3071, 	kl_div: 186.8001, 	disc_loss: 1.2818, 	disc_repr_loss: 1268.2200, 	
+00:35:48 | training Discriminator accurracy 	| disc_false_negatives: 938.0000, 	disc_true_positives: 438614.0000, 	disc_true_negatives: 438720.0000, 	disc_false_positives: 832.0000, 	
+00:35:48 | evaluation Discriminator accurracy 	| disc_false_negatives: 48693.0000, 	disc_true_positives: 146.0000, 	disc_true_negatives: 48119.0000, 	disc_false_positives: 720.0000, 	
+00:40:12 | 
+
+00:40:12 | epoch: 44/50
+00:40:12 | training 	| image_loss: 80.4804, 	kl_div: 204.8135, 	disc_loss: 0.0271, 	disc_repr_loss: 1449.8571, 	
+00:40:12 | evaluation 	| image_loss: 75.8890, 	kl_div: 205.3441, 	disc_loss: 1.0498, 	disc_repr_loss: 1520.5743, 	
+00:40:13 | training Discriminator accurracy 	| disc_false_negatives: 2019.0000, 	disc_true_positives: 437533.0000, 	disc_true_negatives: 437832.0000, 	disc_false_positives: 1720.0000, 	
+00:40:13 | evaluation Discriminator accurracy 	| disc_false_negatives: 47762.0000, 	disc_true_positives: 1077.0000, 	disc_true_negatives: 44812.0000, 	disc_false_positives: 4027.0000, 	
+00:44:37 | 
+
+00:44:37 | epoch: 45/50
+00:44:38 | training 	| image_loss: 82.3163, 	kl_div: 196.2283, 	disc_loss: 0.0213, 	disc_repr_loss: 1358.2578, 	
+00:44:38 | evaluation 	| image_loss: 72.1728, 	kl_div: 208.2735, 	disc_loss: 0.9689, 	disc_repr_loss: 1603.3047, 	
+00:44:38 | training Discriminator accurracy 	| disc_false_negatives: 1245.0000, 	disc_true_positives: 438307.0000, 	disc_true_negatives: 438353.0000, 	disc_false_positives: 1199.0000, 	
+00:44:38 | evaluation Discriminator accurracy 	| disc_false_negatives: 48610.0000, 	disc_true_positives: 229.0000, 	disc_true_negatives: 47764.0000, 	disc_false_positives: 1075.0000, 	
+00:49:09 | 
+
+00:49:09 | epoch: 46/50
+00:49:09 | training 	| image_loss: 82.8444, 	kl_div: 191.0139, 	disc_loss: 0.0222, 	disc_repr_loss: 1329.8091, 	
+00:49:09 | evaluation 	| image_loss: 71.6668, 	kl_div: 199.0044, 	disc_loss: 0.7715, 	disc_repr_loss: 1487.2272, 	
+00:49:10 | training Discriminator accurracy 	| disc_false_negatives: 1195.0000, 	disc_true_positives: 438357.0000, 	disc_true_negatives: 438539.0000, 	disc_false_positives: 1013.0000, 	
+00:49:10 | evaluation Discriminator accurracy 	| disc_false_negatives: 40461.0000, 	disc_true_positives: 8378.0000, 	disc_true_negatives: 37936.0000, 	disc_false_positives: 10903.0000, 	
+00:53:40 | 
+
+00:53:40 | epoch: 47/50
+00:53:40 | training 	| image_loss: 80.3745, 	kl_div: 200.7583, 	disc_loss: 0.0214, 	disc_repr_loss: 1440.9590, 	
+00:53:40 | evaluation 	| image_loss: 70.4122, 	kl_div: 208.2483, 	disc_loss: 1.1635, 	disc_repr_loss: 1572.7161, 	
+00:53:41 | training Discriminator accurracy 	| disc_false_negatives: 1220.0000, 	disc_true_positives: 438332.0000, 	disc_true_negatives: 438366.0000, 	disc_false_positives: 1186.0000, 	
+00:53:41 | evaluation Discriminator accurracy 	| disc_false_negatives: 48804.0000, 	disc_true_positives: 35.0000, 	disc_true_negatives: 46293.0000, 	disc_false_positives: 2546.0000, 	
+00:58:11 | 
+
+00:58:11 | epoch: 48/50
+00:58:11 | training 	| image_loss: 80.4906, 	kl_div: 194.9462, 	disc_loss: 0.0306, 	disc_repr_loss: 1396.7178, 	
+00:58:11 | evaluation 	| image_loss: 66.2435, 	kl_div: 210.4309, 	disc_loss: 1.0549, 	disc_repr_loss: 1767.8270, 	
+00:58:12 | training Discriminator accurracy 	| disc_false_negatives: 2892.0000, 	disc_true_positives: 436660.0000, 	disc_true_negatives: 436797.0000, 	disc_false_positives: 2755.0000, 	
+00:58:12 | evaluation Discriminator accurracy 	| disc_false_negatives: 45604.0000, 	disc_true_positives: 3235.0000, 	disc_true_negatives: 44614.0000, 	disc_false_positives: 4225.0000, 	
+01:02:40 | 
+
+01:02:40 | epoch: 49/50
+01:02:41 | training 	| image_loss: 80.0943, 	kl_div: 198.9984, 	disc_loss: 0.0231, 	disc_repr_loss: 1473.5131, 	
+01:02:41 | evaluation 	| image_loss: 71.1391, 	kl_div: 209.0763, 	disc_loss: 0.7945, 	disc_repr_loss: 1776.8044, 	
+01:02:42 | training Discriminator accurracy 	| disc_false_negatives: 1125.0000, 	disc_true_positives: 438427.0000, 	disc_true_negatives: 438462.0000, 	disc_false_positives: 1090.0000, 	
+01:02:42 | evaluation Discriminator accurracy 	| disc_false_negatives: 6523.0000, 	disc_true_positives: 42316.0000, 	disc_true_negatives: 17503.0000, 	disc_false_positives: 31336.0000, 	
+01:02:43 | finished training
+01:02:43 | Plotting VAE performance
+01:02:44 | Save VAE parameters
+01:02:45 | Using all metadata
+01:02:45 | loaded metadata
+01:02:45 | loading images
+01:02:45 | Loading images from images.pt file
+01:05:22 | loaded images
+01:05:39 | Starting downstream tasks
+01:05:39 | Extract a few images
+01:05:42 | saved images
+01:05:42 | Calculate latent representation for all images
+01:05:43 | Profiling 0/476 batches of size 1024
+01:05:44 | Profiling 1/476 batches of size 1024
+01:05:44 | Profiling 2/476 batches of size 1024
+01:05:44 | Profiling 3/476 batches of size 1024
+01:05:44 | Profiling 4/476 batches of size 1024
+01:05:44 | Profiling 5/476 batches of size 1024
+01:05:44 | Profiling 6/476 batches of size 1024
+01:05:44 | Profiling 7/476 batches of size 1024
+01:05:44 | Profiling 8/476 batches of size 1024
+01:05:44 | Profiling 9/476 batches of size 1024
+01:05:44 | Profiling 10/476 batches of size 1024
+01:05:44 | Profiling 11/476 batches of size 1024
+01:05:44 | Profiling 12/476 batches of size 1024
+01:05:44 | Profiling 13/476 batches of size 1024
+01:05:44 | Profiling 14/476 batches of size 1024
+01:05:44 | Profiling 15/476 batches of size 1024
+01:05:45 | Profiling 16/476 batches of size 1024
+01:05:45 | Profiling 17/476 batches of size 1024
+01:05:45 | Profiling 18/476 batches of size 1024
+01:05:45 | Profiling 19/476 batches of size 1024
+01:05:45 | Profiling 20/476 batches of size 1024
+01:05:45 | Profiling 21/476 batches of size 1024
+01:05:45 | Profiling 22/476 batches of size 1024
+01:05:45 | Profiling 23/476 batches of size 1024
+01:05:45 | Profiling 24/476 batches of size 1024
+01:05:45 | Profiling 25/476 batches of size 1024
+01:05:45 | Profiling 26/476 batches of size 1024
+01:05:45 | Profiling 27/476 batches of size 1024
+01:05:46 | Profiling 28/476 batches of size 1024
+01:05:46 | Profiling 29/476 batches of size 1024
+01:05:46 | Profiling 30/476 batches of size 1024
+01:05:46 | Profiling 31/476 batches of size 1024
+01:05:46 | Profiling 32/476 batches of size 1024
+01:05:46 | Profiling 33/476 batches of size 1024
+01:05:46 | Profiling 34/476 batches of size 1024
+01:05:46 | Profiling 35/476 batches of size 1024
+01:05:46 | Profiling 36/476 batches of size 1024
+01:05:46 | Profiling 37/476 batches of size 1024
+01:05:46 | Profiling 38/476 batches of size 1024
+01:05:47 | Profiling 39/476 batches of size 1024
+01:05:47 | Profiling 40/476 batches of size 1024
+01:05:47 | Profiling 41/476 batches of size 1024
+01:05:47 | Profiling 42/476 batches of size 1024
+01:05:47 | Profiling 43/476 batches of size 1024
+01:05:47 | Profiling 44/476 batches of size 1024
+01:05:47 | Profiling 45/476 batches of size 1024
+01:05:47 | Profiling 46/476 batches of size 1024
+01:05:47 | Profiling 47/476 batches of size 1024
+01:05:47 | Profiling 48/476 batches of size 1024
+01:05:48 | Profiling 49/476 batches of size 1024
+01:05:48 | Profiling 50/476 batches of size 1024
+01:05:48 | Profiling 51/476 batches of size 1024
+01:05:48 | Profiling 52/476 batches of size 1024
+01:05:48 | Profiling 53/476 batches of size 1024
+01:05:48 | Profiling 54/476 batches of size 1024
+01:05:48 | Profiling 55/476 batches of size 1024
+01:05:48 | Profiling 56/476 batches of size 1024
+01:05:48 | Profiling 57/476 batches of size 1024
+01:05:49 | Profiling 58/476 batches of size 1024
+01:05:49 | Profiling 59/476 batches of size 1024
+01:05:49 | Profiling 60/476 batches of size 1024
+01:05:49 | Profiling 61/476 batches of size 1024
+01:05:49 | Profiling 62/476 batches of size 1024
+01:05:49 | Profiling 63/476 batches of size 1024
+01:05:49 | Profiling 64/476 batches of size 1024
+01:05:49 | Profiling 65/476 batches of size 1024
+01:05:50 | Profiling 66/476 batches of size 1024
+01:05:50 | Profiling 67/476 batches of size 1024
+01:05:50 | Profiling 68/476 batches of size 1024
+01:05:50 | Profiling 69/476 batches of size 1024
+01:05:50 | Profiling 70/476 batches of size 1024
+01:05:50 | Profiling 71/476 batches of size 1024
+01:05:50 | Profiling 72/476 batches of size 1024
+01:05:50 | Profiling 73/476 batches of size 1024
+01:05:51 | Profiling 74/476 batches of size 1024
+01:05:51 | Profiling 75/476 batches of size 1024
+01:05:51 | Profiling 76/476 batches of size 1024
+01:05:51 | Profiling 77/476 batches of size 1024
+01:05:51 | Profiling 78/476 batches of size 1024
+01:05:51 | Profiling 79/476 batches of size 1024
+01:05:51 | Profiling 80/476 batches of size 1024
+01:05:52 | Profiling 81/476 batches of size 1024
+01:05:52 | Profiling 82/476 batches of size 1024
+01:05:52 | Profiling 83/476 batches of size 1024
+01:05:52 | Profiling 84/476 batches of size 1024
+01:05:52 | Profiling 85/476 batches of size 1024
+01:05:52 | Profiling 86/476 batches of size 1024
+01:05:52 | Profiling 87/476 batches of size 1024
+01:05:53 | Profiling 88/476 batches of size 1024
+01:05:53 | Profiling 89/476 batches of size 1024
+01:05:53 | Profiling 90/476 batches of size 1024
+01:05:53 | Profiling 91/476 batches of size 1024
+01:05:53 | Profiling 92/476 batches of size 1024
+01:05:53 | Profiling 93/476 batches of size 1024
+01:05:53 | Profiling 94/476 batches of size 1024
+01:05:54 | Profiling 95/476 batches of size 1024
+01:05:54 | Profiling 96/476 batches of size 1024
+01:05:54 | Profiling 97/476 batches of size 1024
+01:05:54 | Profiling 98/476 batches of size 1024
+01:05:54 | Profiling 99/476 batches of size 1024
+01:05:54 | Profiling 100/476 batches of size 1024
+01:05:55 | Profiling 101/476 batches of size 1024
+01:05:55 | Profiling 102/476 batches of size 1024
+01:05:55 | Profiling 103/476 batches of size 1024
+01:05:55 | Profiling 104/476 batches of size 1024
+01:05:55 | Profiling 105/476 batches of size 1024
+01:05:55 | Profiling 106/476 batches of size 1024
+01:05:56 | Profiling 107/476 batches of size 1024
+01:05:56 | Profiling 108/476 batches of size 1024
+01:05:56 | Profiling 109/476 batches of size 1024
+01:05:56 | Profiling 110/476 batches of size 1024
+01:05:56 | Profiling 111/476 batches of size 1024
+01:05:56 | Profiling 112/476 batches of size 1024
+01:05:57 | Profiling 113/476 batches of size 1024
+01:05:57 | Profiling 114/476 batches of size 1024
+01:05:57 | Profiling 115/476 batches of size 1024
+01:05:57 | Profiling 116/476 batches of size 1024
+01:05:57 | Profiling 117/476 batches of size 1024
+01:05:57 | Profiling 118/476 batches of size 1024
+01:05:58 | Profiling 119/476 batches of size 1024
+01:05:58 | Profiling 120/476 batches of size 1024
+01:05:58 | Profiling 121/476 batches of size 1024
+01:05:58 | Profiling 122/476 batches of size 1024
+01:05:58 | Profiling 123/476 batches of size 1024
+01:05:59 | Profiling 124/476 batches of size 1024
+01:05:59 | Profiling 125/476 batches of size 1024
+01:05:59 | Profiling 126/476 batches of size 1024
+01:05:59 | Profiling 127/476 batches of size 1024
+01:05:59 | Profiling 128/476 batches of size 1024
+01:05:59 | Profiling 129/476 batches of size 1024
+01:06:00 | Profiling 130/476 batches of size 1024
+01:06:00 | Profiling 131/476 batches of size 1024
+01:06:00 | Profiling 132/476 batches of size 1024
+01:06:00 | Profiling 133/476 batches of size 1024
+01:06:00 | Profiling 134/476 batches of size 1024
+01:06:01 | Profiling 135/476 batches of size 1024
+01:06:01 | Profiling 136/476 batches of size 1024
+01:06:01 | Profiling 137/476 batches of size 1024
+01:06:01 | Profiling 138/476 batches of size 1024
+01:06:01 | Profiling 139/476 batches of size 1024
+01:06:02 | Profiling 140/476 batches of size 1024
+01:06:02 | Profiling 141/476 batches of size 1024
+01:06:02 | Profiling 142/476 batches of size 1024
+01:06:02 | Profiling 143/476 batches of size 1024
+01:06:02 | Profiling 144/476 batches of size 1024
+01:06:03 | Profiling 145/476 batches of size 1024
+01:06:03 | Profiling 146/476 batches of size 1024
+01:06:03 | Profiling 147/476 batches of size 1024
+01:06:03 | Profiling 148/476 batches of size 1024
+01:06:03 | Profiling 149/476 batches of size 1024
+01:06:04 | Profiling 150/476 batches of size 1024
+01:06:04 | Profiling 151/476 batches of size 1024
+01:06:04 | Profiling 152/476 batches of size 1024
+01:06:04 | Profiling 153/476 batches of size 1024
+01:06:05 | Profiling 154/476 batches of size 1024
+01:06:05 | Profiling 155/476 batches of size 1024
+01:06:05 | Profiling 156/476 batches of size 1024
+01:06:05 | Profiling 157/476 batches of size 1024
+01:06:05 | Profiling 158/476 batches of size 1024
+01:06:06 | Profiling 159/476 batches of size 1024
+01:06:06 | Profiling 160/476 batches of size 1024
+01:06:06 | Profiling 161/476 batches of size 1024
+01:06:06 | Profiling 162/476 batches of size 1024
+01:06:07 | Profiling 163/476 batches of size 1024
+01:06:07 | Profiling 164/476 batches of size 1024
+01:06:07 | Profiling 165/476 batches of size 1024
+01:06:07 | Profiling 166/476 batches of size 1024
+01:06:08 | Profiling 167/476 batches of size 1024
+01:06:08 | Profiling 168/476 batches of size 1024
+01:06:08 | Profiling 169/476 batches of size 1024
+01:06:08 | Profiling 170/476 batches of size 1024
+01:06:09 | Profiling 171/476 batches of size 1024
+01:06:09 | Profiling 172/476 batches of size 1024
+01:06:09 | Profiling 173/476 batches of size 1024
+01:06:09 | Profiling 174/476 batches of size 1024
+01:06:10 | Profiling 175/476 batches of size 1024
+01:06:10 | Profiling 176/476 batches of size 1024
+01:06:10 | Profiling 177/476 batches of size 1024
+01:06:10 | Profiling 178/476 batches of size 1024
+01:06:11 | Profiling 179/476 batches of size 1024
+01:06:11 | Profiling 180/476 batches of size 1024
+01:06:11 | Profiling 181/476 batches of size 1024
+01:06:11 | Profiling 182/476 batches of size 1024
+01:06:12 | Profiling 183/476 batches of size 1024
+01:06:12 | Profiling 184/476 batches of size 1024
+01:06:12 | Profiling 185/476 batches of size 1024
+01:06:12 | Profiling 186/476 batches of size 1024
+01:06:13 | Profiling 187/476 batches of size 1024
+01:06:13 | Profiling 188/476 batches of size 1024
+01:06:13 | Profiling 189/476 batches of size 1024
+01:06:14 | Profiling 190/476 batches of size 1024
+01:06:14 | Profiling 191/476 batches of size 1024
+01:06:14 | Profiling 192/476 batches of size 1024
+01:06:14 | Profiling 193/476 batches of size 1024
+01:06:15 | Profiling 194/476 batches of size 1024
+01:06:15 | Profiling 195/476 batches of size 1024
+01:06:15 | Profiling 196/476 batches of size 1024
+01:06:15 | Profiling 197/476 batches of size 1024
+01:06:16 | Profiling 198/476 batches of size 1024
+01:06:16 | Profiling 199/476 batches of size 1024
+01:06:16 | Profiling 200/476 batches of size 1024
+01:06:17 | Profiling 201/476 batches of size 1024
+01:06:17 | Profiling 202/476 batches of size 1024
+01:06:17 | Profiling 203/476 batches of size 1024
+01:06:17 | Profiling 204/476 batches of size 1024
+01:06:18 | Profiling 205/476 batches of size 1024
+01:06:18 | Profiling 206/476 batches of size 1024
+01:06:18 | Profiling 207/476 batches of size 1024
+01:06:19 | Profiling 208/476 batches of size 1024
+01:06:19 | Profiling 209/476 batches of size 1024
+01:06:19 | Profiling 210/476 batches of size 1024
+01:06:19 | Profiling 211/476 batches of size 1024
+01:06:20 | Profiling 212/476 batches of size 1024
+01:06:20 | Profiling 213/476 batches of size 1024
+01:06:20 | Profiling 214/476 batches of size 1024
+01:06:21 | Profiling 215/476 batches of size 1024
+01:06:21 | Profiling 216/476 batches of size 1024
+01:06:21 | Profiling 217/476 batches of size 1024
+01:06:22 | Profiling 218/476 batches of size 1024
+01:06:22 | Profiling 219/476 batches of size 1024
+01:06:22 | Profiling 220/476 batches of size 1024
+01:06:22 | Profiling 221/476 batches of size 1024
+01:06:23 | Profiling 222/476 batches of size 1024
+01:06:23 | Profiling 223/476 batches of size 1024
+01:06:23 | Profiling 224/476 batches of size 1024
+01:06:24 | Profiling 225/476 batches of size 1024
+01:06:24 | Profiling 226/476 batches of size 1024
+01:06:24 | Profiling 227/476 batches of size 1024
+01:06:25 | Profiling 228/476 batches of size 1024
+01:06:25 | Profiling 229/476 batches of size 1024
+01:06:25 | Profiling 230/476 batches of size 1024
+01:06:26 | Profiling 231/476 batches of size 1024
+01:06:26 | Profiling 232/476 batches of size 1024
+01:06:26 | Profiling 233/476 batches of size 1024
+01:06:26 | Profiling 234/476 batches of size 1024
+01:06:27 | Profiling 235/476 batches of size 1024
+01:06:27 | Profiling 236/476 batches of size 1024
+01:06:27 | Profiling 237/476 batches of size 1024
+01:06:28 | Profiling 238/476 batches of size 1024
+01:06:28 | Profiling 239/476 batches of size 1024
+01:06:28 | Profiling 240/476 batches of size 1024
+01:06:29 | Profiling 241/476 batches of size 1024
+01:06:29 | Profiling 242/476 batches of size 1024
+01:06:29 | Profiling 243/476 batches of size 1024
+01:06:30 | Profiling 244/476 batches of size 1024
+01:06:30 | Profiling 245/476 batches of size 1024
+01:06:30 | Profiling 246/476 batches of size 1024
+01:06:31 | Profiling 247/476 batches of size 1024
+01:06:31 | Profiling 248/476 batches of size 1024
+01:06:31 | Profiling 249/476 batches of size 1024
+01:06:32 | Profiling 250/476 batches of size 1024
+01:06:32 | Profiling 251/476 batches of size 1024
+01:06:32 | Profiling 252/476 batches of size 1024
+01:06:33 | Profiling 253/476 batches of size 1024
+01:06:33 | Profiling 254/476 batches of size 1024
+01:06:33 | Profiling 255/476 batches of size 1024
+01:06:34 | Profiling 256/476 batches of size 1024
+01:06:34 | Profiling 257/476 batches of size 1024
+01:06:34 | Profiling 258/476 batches of size 1024
+01:06:35 | Profiling 259/476 batches of size 1024
+01:06:35 | Profiling 260/476 batches of size 1024
+01:06:35 | Profiling 261/476 batches of size 1024
+01:06:36 | Profiling 262/476 batches of size 1024
+01:06:36 | Profiling 263/476 batches of size 1024
+01:06:36 | Profiling 264/476 batches of size 1024
+01:06:37 | Profiling 265/476 batches of size 1024
+01:06:37 | Profiling 266/476 batches of size 1024
+01:06:38 | Profiling 267/476 batches of size 1024
+01:06:38 | Profiling 268/476 batches of size 1024
+01:06:38 | Profiling 269/476 batches of size 1024
+01:06:39 | Profiling 270/476 batches of size 1024
+01:06:39 | Profiling 271/476 batches of size 1024
+01:06:39 | Profiling 272/476 batches of size 1024
+01:06:40 | Profiling 273/476 batches of size 1024
+01:06:40 | Profiling 274/476 batches of size 1024
+01:06:40 | Profiling 275/476 batches of size 1024
+01:06:41 | Profiling 276/476 batches of size 1024
+01:06:41 | Profiling 277/476 batches of size 1024
+01:06:42 | Profiling 278/476 batches of size 1024
+01:06:42 | Profiling 279/476 batches of size 1024
+01:06:42 | Profiling 280/476 batches of size 1024
+01:06:43 | Profiling 281/476 batches of size 1024
+01:06:43 | Profiling 282/476 batches of size 1024
+01:06:43 | Profiling 283/476 batches of size 1024
+01:06:44 | Profiling 284/476 batches of size 1024
+01:06:44 | Profiling 285/476 batches of size 1024
+01:06:45 | Profiling 286/476 batches of size 1024
+01:06:45 | Profiling 287/476 batches of size 1024
+01:06:45 | Profiling 288/476 batches of size 1024
+01:06:46 | Profiling 289/476 batches of size 1024
+01:06:46 | Profiling 290/476 batches of size 1024
+01:06:46 | Profiling 291/476 batches of size 1024
+01:06:47 | Profiling 292/476 batches of size 1024
+01:06:47 | Profiling 293/476 batches of size 1024
+01:06:48 | Profiling 294/476 batches of size 1024
+01:06:48 | Profiling 295/476 batches of size 1024
+01:06:48 | Profiling 296/476 batches of size 1024
+01:06:49 | Profiling 297/476 batches of size 1024
+01:06:49 | Profiling 298/476 batches of size 1024
+01:06:50 | Profiling 299/476 batches of size 1024
+01:06:50 | Profiling 300/476 batches of size 1024
+01:06:50 | Profiling 301/476 batches of size 1024
+01:06:51 | Profiling 302/476 batches of size 1024
+01:06:51 | Profiling 303/476 batches of size 1024
+01:06:52 | Profiling 304/476 batches of size 1024
+01:06:52 | Profiling 305/476 batches of size 1024
+01:06:52 | Profiling 306/476 batches of size 1024
+01:06:53 | Profiling 307/476 batches of size 1024
+01:06:53 | Profiling 308/476 batches of size 1024
+01:06:54 | Profiling 309/476 batches of size 1024
+01:06:54 | Profiling 310/476 batches of size 1024
+01:06:54 | Profiling 311/476 batches of size 1024
+01:06:55 | Profiling 312/476 batches of size 1024
+01:06:55 | Profiling 313/476 batches of size 1024
+01:06:56 | Profiling 314/476 batches of size 1024
+01:06:56 | Profiling 315/476 batches of size 1024
+01:06:56 | Profiling 316/476 batches of size 1024
+01:06:57 | Profiling 317/476 batches of size 1024
+01:06:57 | Profiling 318/476 batches of size 1024
+01:06:58 | Profiling 319/476 batches of size 1024
+01:06:58 | Profiling 320/476 batches of size 1024
+01:06:58 | Profiling 321/476 batches of size 1024
+01:06:59 | Profiling 322/476 batches of size 1024
+01:06:59 | Profiling 323/476 batches of size 1024
+01:07:00 | Profiling 324/476 batches of size 1024
+01:07:00 | Profiling 325/476 batches of size 1024
+01:07:01 | Profiling 326/476 batches of size 1024
+01:07:01 | Profiling 327/476 batches of size 1024
+01:07:01 | Profiling 328/476 batches of size 1024
+01:07:02 | Profiling 329/476 batches of size 1024
+01:07:02 | Profiling 330/476 batches of size 1024
+01:07:03 | Profiling 331/476 batches of size 1024
+01:07:03 | Profiling 332/476 batches of size 1024
+01:07:04 | Profiling 333/476 batches of size 1024
+01:07:04 | Profiling 334/476 batches of size 1024
+01:07:04 | Profiling 335/476 batches of size 1024
+01:07:05 | Profiling 336/476 batches of size 1024
+01:07:05 | Profiling 337/476 batches of size 1024
+01:07:06 | Profiling 338/476 batches of size 1024
+01:07:06 | Profiling 339/476 batches of size 1024
+01:07:07 | Profiling 340/476 batches of size 1024
+01:07:07 | Profiling 341/476 batches of size 1024
+01:07:07 | Profiling 342/476 batches of size 1024
+01:07:08 | Profiling 343/476 batches of size 1024
+01:07:08 | Profiling 344/476 batches of size 1024
+01:07:09 | Profiling 345/476 batches of size 1024
+01:07:09 | Profiling 346/476 batches of size 1024
+01:07:10 | Profiling 347/476 batches of size 1024
+01:07:10 | Profiling 348/476 batches of size 1024
+01:07:10 | Profiling 349/476 batches of size 1024
+01:07:11 | Profiling 350/476 batches of size 1024
+01:07:11 | Profiling 351/476 batches of size 1024
+01:07:12 | Profiling 352/476 batches of size 1024
+01:07:12 | Profiling 353/476 batches of size 1024
+01:07:13 | Profiling 354/476 batches of size 1024
+01:07:13 | Profiling 355/476 batches of size 1024
+01:07:14 | Profiling 356/476 batches of size 1024
+01:07:14 | Profiling 357/476 batches of size 1024
+01:07:15 | Profiling 358/476 batches of size 1024
+01:07:15 | Profiling 359/476 batches of size 1024
+01:07:15 | Profiling 360/476 batches of size 1024
+01:07:16 | Profiling 361/476 batches of size 1024
+01:07:16 | Profiling 362/476 batches of size 1024
+01:07:17 | Profiling 363/476 batches of size 1024
+01:07:17 | Profiling 364/476 batches of size 1024
+01:07:18 | Profiling 365/476 batches of size 1024
+01:07:18 | Profiling 366/476 batches of size 1024
+01:07:19 | Profiling 367/476 batches of size 1024
+01:07:19 | Profiling 368/476 batches of size 1024
+01:07:20 | Profiling 369/476 batches of size 1024
+01:07:20 | Profiling 370/476 batches of size 1024
+01:07:21 | Profiling 371/476 batches of size 1024
+01:07:21 | Profiling 372/476 batches of size 1024
+01:07:21 | Profiling 373/476 batches of size 1024
+01:07:22 | Profiling 374/476 batches of size 1024
+01:07:22 | Profiling 375/476 batches of size 1024
+01:07:23 | Profiling 376/476 batches of size 1024
+01:07:23 | Profiling 377/476 batches of size 1024
+01:07:24 | Profiling 378/476 batches of size 1024
+01:07:24 | Profiling 379/476 batches of size 1024
+01:07:25 | Profiling 380/476 batches of size 1024
+01:07:25 | Profiling 381/476 batches of size 1024
+01:07:26 | Profiling 382/476 batches of size 1024
+01:07:26 | Profiling 383/476 batches of size 1024
+01:07:27 | Profiling 384/476 batches of size 1024
+01:07:27 | Profiling 385/476 batches of size 1024
+01:07:28 | Profiling 386/476 batches of size 1024
+01:07:28 | Profiling 387/476 batches of size 1024
+01:07:29 | Profiling 388/476 batches of size 1024
+01:07:29 | Profiling 389/476 batches of size 1024
+01:07:30 | Profiling 390/476 batches of size 1024
+01:07:30 | Profiling 391/476 batches of size 1024
+01:07:31 | Profiling 392/476 batches of size 1024
+01:07:31 | Profiling 393/476 batches of size 1024
+01:07:32 | Profiling 394/476 batches of size 1024
+01:07:32 | Profiling 395/476 batches of size 1024
+01:07:33 | Profiling 396/476 batches of size 1024
+01:07:33 | Profiling 397/476 batches of size 1024
+01:07:34 | Profiling 398/476 batches of size 1024
+01:07:34 | Profiling 399/476 batches of size 1024
+01:07:35 | Profiling 400/476 batches of size 1024
+01:07:35 | Profiling 401/476 batches of size 1024
+01:07:36 | Profiling 402/476 batches of size 1024
+01:07:36 | Profiling 403/476 batches of size 1024
+01:07:37 | Profiling 404/476 batches of size 1024
+01:07:37 | Profiling 405/476 batches of size 1024
+01:07:38 | Profiling 406/476 batches of size 1024
+01:07:38 | Profiling 407/476 batches of size 1024
+01:07:39 | Profiling 408/476 batches of size 1024
+01:07:39 | Profiling 409/476 batches of size 1024
+01:07:40 | Profiling 410/476 batches of size 1024
+01:07:40 | Profiling 411/476 batches of size 1024
+01:07:41 | Profiling 412/476 batches of size 1024
+01:07:41 | Profiling 413/476 batches of size 1024
+01:07:42 | Profiling 414/476 batches of size 1024
+01:07:42 | Profiling 415/476 batches of size 1024
+01:07:43 | Profiling 416/476 batches of size 1024
+01:07:43 | Profiling 417/476 batches of size 1024
+01:07:44 | Profiling 418/476 batches of size 1024
+01:07:44 | Profiling 419/476 batches of size 1024
+01:07:45 | Profiling 420/476 batches of size 1024
+01:07:45 | Profiling 421/476 batches of size 1024
+01:07:46 | Profiling 422/476 batches of size 1024
+01:07:46 | Profiling 423/476 batches of size 1024
+01:07:47 | Profiling 424/476 batches of size 1024
+01:07:47 | Profiling 425/476 batches of size 1024
+01:07:48 | Profiling 426/476 batches of size 1024
+01:07:48 | Profiling 427/476 batches of size 1024
+01:07:49 | Profiling 428/476 batches of size 1024
+01:07:49 | Profiling 429/476 batches of size 1024
+01:07:50 | Profiling 430/476 batches of size 1024
+01:07:51 | Profiling 431/476 batches of size 1024
+01:07:51 | Profiling 432/476 batches of size 1024
+01:07:52 | Profiling 433/476 batches of size 1024
+01:07:52 | Profiling 434/476 batches of size 1024
+01:07:53 | Profiling 435/476 batches of size 1024
+01:07:53 | Profiling 436/476 batches of size 1024
+01:07:54 | Profiling 437/476 batches of size 1024
+01:07:54 | Profiling 438/476 batches of size 1024
+01:07:55 | Profiling 439/476 batches of size 1024
+01:07:55 | Profiling 440/476 batches of size 1024
+01:07:56 | Profiling 441/476 batches of size 1024
+01:07:56 | Profiling 442/476 batches of size 1024
+01:07:57 | Profiling 443/476 batches of size 1024
+01:07:58 | Profiling 444/476 batches of size 1024
+01:07:58 | Profiling 445/476 batches of size 1024
+01:07:59 | Profiling 446/476 batches of size 1024
+01:07:59 | Profiling 447/476 batches of size 1024
+01:08:00 | Profiling 448/476 batches of size 1024
+01:08:00 | Profiling 449/476 batches of size 1024
+01:08:01 | Profiling 450/476 batches of size 1024
+01:08:01 | Profiling 451/476 batches of size 1024
+01:08:02 | Profiling 452/476 batches of size 1024
+01:08:03 | Profiling 453/476 batches of size 1024
+01:08:03 | Profiling 454/476 batches of size 1024
+01:08:04 | Profiling 455/476 batches of size 1024
+01:08:04 | Profiling 456/476 batches of size 1024
+01:08:05 | Profiling 457/476 batches of size 1024
+01:08:05 | Profiling 458/476 batches of size 1024
+01:08:06 | Profiling 459/476 batches of size 1024
+01:08:06 | Profiling 460/476 batches of size 1024
+01:08:07 | Profiling 461/476 batches of size 1024
+01:08:08 | Profiling 462/476 batches of size 1024
+01:08:08 | Profiling 463/476 batches of size 1024
+01:08:09 | Profiling 464/476 batches of size 1024
+01:08:09 | Profiling 465/476 batches of size 1024
+01:08:10 | Profiling 466/476 batches of size 1024
+01:08:10 | Profiling 467/476 batches of size 1024
+01:08:11 | Profiling 468/476 batches of size 1024
+01:08:12 | Profiling 469/476 batches of size 1024
+01:08:12 | Profiling 470/476 batches of size 1024
+01:08:13 | Profiling 471/476 batches of size 1024
+01:08:13 | Profiling 472/476 batches of size 1024
+01:08:14 | Profiling 473/476 batches of size 1024
+01:08:15 | Profiling 474/476 batches of size 1024
+01:08:15 | Profiling 475/476 batches of size 1024
+01:08:16 | Profiling 476/476 batches of size 972
+01:08:16 | Done calculating latent space
+01:08:16 | Plotting interpolations of reconstructions
+01:08:16 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/ALLN_100.0.png
+01:08:27 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/ALLN_3.0.png
+01:08:37 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/AZ-A_0.1.png
+01:08:48 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/AZ-A_0.3.png
+01:08:58 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/AZ-A_1.0.png
+01:09:08 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/AZ-A_10.0.png
+01:09:19 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/AZ-A_3.0.png
+01:09:29 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/AZ-A_30.0.png
+01:09:39 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/AZ-C_0.001.png
+01:09:50 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/AZ-C_0.003.png
+01:10:00 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/AZ-C_0.01.png
+01:10:10 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/AZ-C_0.03.png
+01:10:21 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/AZ-C_0.1.png
+01:10:31 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/AZ-C_0.3.png
+01:10:42 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/AZ-C_1.0.png
+01:10:52 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/AZ-J_1.0.png
+01:11:02 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/AZ-J_10.0.png
+01:11:13 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/AZ-J_3.0.png
+01:11:23 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/AZ-U_1.0.png
+01:11:33 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/AZ-U_10.0.png
+01:11:44 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/AZ-U_3.0.png
+01:11:54 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/AZ138_0.03.png
+01:12:05 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/AZ138_0.1.png
+01:12:15 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/AZ138_0.3.png
+01:12:25 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/AZ138_1.0.png
+01:12:36 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/AZ138_3.0.png
+01:12:46 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/AZ258_0.1.png
+01:12:56 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/AZ258_0.3.png
+01:13:07 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/AZ258_1.0.png
+01:13:17 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/AZ841_0.1.png
+01:13:27 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/AZ841_0.3.png
+01:13:38 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/AZ841_1.0.png
+01:13:48 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/DMSO_0.0.png
+01:13:58 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/MG-132_0.1.png
+01:14:09 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/MG-132_3.0.png
+01:14:19 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/PD-169316_10.0.png
+01:14:30 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/PD-169316_3.0.png
+01:14:40 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/PP-2_10.0.png
+01:14:50 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/PP-2_3.0.png
+01:15:01 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/alsterpaullone_1.0.png
+01:15:11 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/alsterpaullone_3.0.png
+01:15:21 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/anisomycin_0.3.png
+01:15:32 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/anisomycin_1.0.png
+01:15:42 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/bryostatin_0.3.png
+01:15:52 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/camptothecin_0.003.png
+01:16:03 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/camptothecin_0.01.png
+01:16:13 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/camptothecin_0.03.png
+01:16:23 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/chlorambucil_10.0.png
+01:16:34 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/cisplatin_10.0.png
+01:16:44 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/colchicine_0.03.png
+01:16:55 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/cyclohexamide_15.0.png
+01:17:05 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/cyclohexamide_5.0.png
+01:17:15 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/cyclohexamide_50.0.png
+01:17:26 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/cytochalasin B_10.0.png
+01:17:36 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/cytochalasin B_30.0.png
+01:17:46 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/cytochalasin D_0.3.png
+01:17:57 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/demecolcine_0.3.png
+01:18:07 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/demecolcine_1.0.png
+01:18:17 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/demecolcine_10.0.png
+01:18:28 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/demecolcine_3.0.png
+01:18:38 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/docetaxel_0.03.png
+01:18:49 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/docetaxel_0.1.png
+01:18:59 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/docetaxel_0.3.png
+01:19:09 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/emetine_0.1.png
+01:19:20 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/emetine_0.3.png
+01:19:30 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/emetine_1.0.png
+01:19:40 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/epothilone B_0.1.png
+01:19:51 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/epothilone B_0.3.png
+01:20:01 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/epothilone B_1.0.png
+01:20:11 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/etoposide_1.0.png
+01:20:22 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/etoposide_10.0.png
+01:20:32 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/etoposide_3.0.png
+01:20:42 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/floxuridine_10.0.png
+01:20:53 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/floxuridine_30.0.png
+01:21:03 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/lactacystin_10.0.png
+01:21:14 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/latrunculin B_1.0.png
+01:21:24 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/latrunculin B_3.0.png
+01:21:34 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/methotrexate_10.0.png
+01:21:45 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/mevinolin_lovastatin_1.5.png
+01:21:55 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/mevinolin_lovastatin_15.0.png
+01:22:05 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/mevinolin_lovastatin_5.0.png
+01:22:16 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/mitomycin C_0.1.png
+01:22:26 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/mitomycin C_0.3.png
+01:22:36 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/mitomycin C_1.0.png
+01:22:47 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/mitomycin C_3.0.png
+01:22:57 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/mitoxantrone_0.003.png
+01:23:07 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/mitoxantrone_0.01.png
+01:23:18 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/nocodazole_1.0.png
+01:23:28 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/nocodazole_3.0.png
+01:23:38 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/proteasome inhibitor I_0.1.png
+01:23:49 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/proteasome inhibitor I_3.0.png
+01:23:59 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/simvastatin_2.0.png
+01:24:09 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/simvastatin_20.0.png
+01:24:20 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/simvastatin_6.0.png
+01:24:30 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/taxol_0.3.png
+01:24:40 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/taxol_1.0.png
+01:24:51 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/taxol_3.0.png
+01:25:01 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/vincristine_0.003.png
+01:25:12 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/vincristine_0.01.png
+01:25:22 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/vincristine_0.03.png
+01:25:32 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/vincristine_0.1.png
+01:25:43 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/vincristine_0.3.png
+01:25:53 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/vincristine_1.0.png
+01:26:03 | doing: dump/outputs_2023-01-02 - 21-17-12/interpolations/vincristine_3.0.png
+01:26:14 | Plotting latent space heatmap
+01:27:16 | Nearest neighbor classification (Not-Same-Compound)
+01:27:23 | Model Accuracy: 77.98229548229548
+01:27:23 | Model Precision: 80.74938949938951
+01:27:23 | Model Recall: 77.98229548229547
+01:27:23 | Model F1: 79.34172377346
+01:27:23 | output_folder is: dump/outputs_2023-01-02 - 21-17-12/
+01:27:23 | script done.

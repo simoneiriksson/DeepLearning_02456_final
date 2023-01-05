@@ -1,0 +1,660 @@
+18:47:44 | output_folder is: dump/outputs_2023-01-02 - 18-47-44/
+18:47:44 | Using device: cuda:0
+18:47:46 | Using all metadata
+18:47:46 | loaded metadata
+18:47:46 | loading images
+18:47:46 | Loading images from images.pt file
+18:51:49 | loaded images
+18:52:06 | VAE Configs
+18:52:06 | params: {'num_epochs': 50, 'batch_size': 64, 'learning_rate': 0.001, 'weight_decay': 0.001, 'image_shape': array([ 3, 68, 68]), 'latent_features': 256, 'model_type': 'CytoVAE', 'beta': 1.0, 'p_norm': 2.0}
+18:52:14 | VAE Training
+18:55:02 | epoch: 0/50
+18:55:02 | training 	| elbo: -220.9381, 	image_loss: 152.4090, 	kl: 68.5290, 	
+18:55:02 | evaluation 	| elbo: -154.2710, 	image_loss: 102.0295, 	kl: 52.2415, 	
+18:57:42 | epoch: 1/50
+18:57:42 | training 	| elbo: -160.1614, 	image_loss: 108.2154, 	kl: 51.9460, 	
+18:57:42 | evaluation 	| elbo: -151.2245, 	image_loss: 100.1740, 	kl: 51.0505, 	
+19:00:23 | epoch: 2/50
+19:00:23 | training 	| elbo: -155.3483, 	image_loss: 103.4103, 	kl: 51.9380, 	
+19:00:23 | evaluation 	| elbo: -143.3050, 	image_loss: 92.6776, 	kl: 50.6274, 	
+19:03:03 | epoch: 3/50
+19:03:03 | training 	| elbo: -153.1948, 	image_loss: 101.3037, 	kl: 51.8911, 	
+19:03:03 | evaluation 	| elbo: -142.1700, 	image_loss: 91.4392, 	kl: 50.7307, 	
+19:05:43 | epoch: 4/50
+19:05:44 | training 	| elbo: -152.0102, 	image_loss: 100.1058, 	kl: 51.9045, 	
+19:05:44 | evaluation 	| elbo: -140.7587, 	image_loss: 89.4237, 	kl: 51.3350, 	
+19:08:24 | epoch: 5/50
+19:08:24 | training 	| elbo: -151.1040, 	image_loss: 99.2264, 	kl: 51.8776, 	
+19:08:24 | evaluation 	| elbo: -141.6812, 	image_loss: 90.8728, 	kl: 50.8084, 	
+19:11:04 | epoch: 6/50
+19:11:04 | training 	| elbo: -150.4663, 	image_loss: 98.6123, 	kl: 51.8540, 	
+19:11:04 | evaluation 	| elbo: -139.7480, 	image_loss: 88.9192, 	kl: 50.8288, 	
+19:13:45 | epoch: 7/50
+19:13:45 | training 	| elbo: -149.8831, 	image_loss: 98.0710, 	kl: 51.8121, 	
+19:13:45 | evaluation 	| elbo: -140.5190, 	image_loss: 90.1657, 	kl: 50.3533, 	
+19:16:26 | epoch: 8/50
+19:16:26 | training 	| elbo: -149.4563, 	image_loss: 97.6689, 	kl: 51.7874, 	
+19:16:26 | evaluation 	| elbo: -139.0376, 	image_loss: 87.8718, 	kl: 51.1657, 	
+19:19:06 | epoch: 9/50
+19:19:06 | training 	| elbo: -149.0546, 	image_loss: 97.2788, 	kl: 51.7758, 	
+19:19:06 | evaluation 	| elbo: -139.0831, 	image_loss: 87.8541, 	kl: 51.2289, 	
+19:21:46 | epoch: 10/50
+19:21:46 | training 	| elbo: -148.6784, 	image_loss: 96.9207, 	kl: 51.7576, 	
+19:21:46 | evaluation 	| elbo: -138.1014, 	image_loss: 87.4167, 	kl: 50.6847, 	
+19:24:26 | epoch: 11/50
+19:24:26 | training 	| elbo: -148.3963, 	image_loss: 96.6569, 	kl: 51.7395, 	
+19:24:26 | evaluation 	| elbo: -138.5668, 	image_loss: 88.2958, 	kl: 50.2710, 	
+19:27:06 | epoch: 12/50
+19:27:06 | training 	| elbo: -148.1826, 	image_loss: 96.4356, 	kl: 51.7470, 	
+19:27:06 | evaluation 	| elbo: -137.8480, 	image_loss: 87.7668, 	kl: 50.0812, 	
+19:29:46 | epoch: 13/50
+19:29:46 | training 	| elbo: -148.0475, 	image_loss: 96.2741, 	kl: 51.7734, 	
+19:29:46 | evaluation 	| elbo: -138.4579, 	image_loss: 88.2410, 	kl: 50.2169, 	
+19:32:26 | epoch: 14/50
+19:32:26 | training 	| elbo: -147.7985, 	image_loss: 96.0589, 	kl: 51.7396, 	
+19:32:26 | evaluation 	| elbo: -137.4149, 	image_loss: 87.6680, 	kl: 49.7469, 	
+19:35:06 | epoch: 15/50
+19:35:06 | training 	| elbo: -147.6241, 	image_loss: 95.8563, 	kl: 51.7677, 	
+19:35:06 | evaluation 	| elbo: -137.8088, 	image_loss: 87.3133, 	kl: 50.4956, 	
+19:37:46 | epoch: 16/50
+19:37:46 | training 	| elbo: -147.4303, 	image_loss: 95.6517, 	kl: 51.7787, 	
+19:37:46 | evaluation 	| elbo: -137.1316, 	image_loss: 86.3983, 	kl: 50.7333, 	
+19:40:27 | epoch: 17/50
+19:40:27 | training 	| elbo: -147.2853, 	image_loss: 95.5096, 	kl: 51.7757, 	
+19:40:27 | evaluation 	| elbo: -137.1517, 	image_loss: 86.8266, 	kl: 50.3250, 	
+19:43:07 | epoch: 18/50
+19:43:07 | training 	| elbo: -147.1383, 	image_loss: 95.3391, 	kl: 51.7992, 	
+19:43:07 | evaluation 	| elbo: -136.9090, 	image_loss: 85.8379, 	kl: 51.0711, 	
+19:45:47 | epoch: 19/50
+19:45:47 | training 	| elbo: -147.0329, 	image_loss: 95.2392, 	kl: 51.7937, 	
+19:45:47 | evaluation 	| elbo: -136.7945, 	image_loss: 86.6018, 	kl: 50.1927, 	
+19:48:27 | epoch: 20/50
+19:48:27 | training 	| elbo: -146.8731, 	image_loss: 95.0739, 	kl: 51.7992, 	
+19:48:27 | evaluation 	| elbo: -136.0275, 	image_loss: 85.2279, 	kl: 50.7997, 	
+19:51:07 | epoch: 21/50
+19:51:07 | training 	| elbo: -146.7881, 	image_loss: 94.9923, 	kl: 51.7958, 	
+19:51:07 | evaluation 	| elbo: -136.0865, 	image_loss: 86.5623, 	kl: 49.5242, 	
+19:53:47 | epoch: 22/50
+19:53:48 | training 	| elbo: -146.6999, 	image_loss: 94.9161, 	kl: 51.7838, 	
+19:53:48 | evaluation 	| elbo: -136.0393, 	image_loss: 85.5158, 	kl: 50.5235, 	
+19:56:28 | epoch: 23/50
+19:56:28 | training 	| elbo: -146.6973, 	image_loss: 94.9113, 	kl: 51.7861, 	
+19:56:28 | evaluation 	| elbo: -136.0073, 	image_loss: 85.7325, 	kl: 50.2748, 	
+19:59:08 | epoch: 24/50
+19:59:08 | training 	| elbo: -146.5574, 	image_loss: 94.7749, 	kl: 51.7825, 	
+19:59:08 | evaluation 	| elbo: -137.2834, 	image_loss: 86.0856, 	kl: 51.1978, 	
+20:01:48 | epoch: 25/50
+20:01:48 | training 	| elbo: -146.4963, 	image_loss: 94.7196, 	kl: 51.7767, 	
+20:01:48 | evaluation 	| elbo: -136.6757, 	image_loss: 85.8736, 	kl: 50.8021, 	
+20:04:28 | epoch: 26/50
+20:04:28 | training 	| elbo: -146.3689, 	image_loss: 94.5683, 	kl: 51.8006, 	
+20:04:28 | evaluation 	| elbo: -135.9711, 	image_loss: 85.3134, 	kl: 50.6576, 	
+20:07:07 | epoch: 27/50
+20:07:08 | training 	| elbo: -146.3484, 	image_loss: 94.5731, 	kl: 51.7754, 	
+20:07:08 | evaluation 	| elbo: -135.7457, 	image_loss: 84.9811, 	kl: 50.7646, 	
+20:09:47 | epoch: 28/50
+20:09:47 | training 	| elbo: -146.2731, 	image_loss: 94.4963, 	kl: 51.7768, 	
+20:09:47 | evaluation 	| elbo: -135.7510, 	image_loss: 86.2972, 	kl: 49.4538, 	
+20:12:28 | epoch: 29/50
+20:12:28 | training 	| elbo: -146.2122, 	image_loss: 94.4497, 	kl: 51.7624, 	
+20:12:28 | evaluation 	| elbo: -136.7564, 	image_loss: 87.7572, 	kl: 48.9991, 	
+20:15:07 | epoch: 30/50
+20:15:08 | training 	| elbo: -146.1800, 	image_loss: 94.4083, 	kl: 51.7717, 	
+20:15:08 | evaluation 	| elbo: -134.9744, 	image_loss: 85.0785, 	kl: 49.8959, 	
+20:17:48 | epoch: 31/50
+20:17:48 | training 	| elbo: -146.0920, 	image_loss: 94.3398, 	kl: 51.7522, 	
+20:17:48 | evaluation 	| elbo: -135.1815, 	image_loss: 84.9629, 	kl: 50.2186, 	
+20:20:28 | epoch: 32/50
+20:20:28 | training 	| elbo: -146.0322, 	image_loss: 94.2801, 	kl: 51.7521, 	
+20:20:28 | evaluation 	| elbo: -134.8436, 	image_loss: 84.3683, 	kl: 50.4752, 	
+20:23:07 | epoch: 33/50
+20:23:08 | training 	| elbo: -146.0419, 	image_loss: 94.3048, 	kl: 51.7371, 	
+20:23:08 | evaluation 	| elbo: -135.8077, 	image_loss: 85.4193, 	kl: 50.3884, 	
+20:25:47 | epoch: 34/50
+20:25:47 | training 	| elbo: -145.9677, 	image_loss: 94.2308, 	kl: 51.7369, 	
+20:25:47 | evaluation 	| elbo: -135.2375, 	image_loss: 84.9751, 	kl: 50.2625, 	
+20:28:27 | epoch: 35/50
+20:28:27 | training 	| elbo: -145.8536, 	image_loss: 94.1124, 	kl: 51.7413, 	
+20:28:27 | evaluation 	| elbo: -135.2633, 	image_loss: 84.8427, 	kl: 50.4206, 	
+20:31:07 | epoch: 36/50
+20:31:07 | training 	| elbo: -145.8694, 	image_loss: 94.1423, 	kl: 51.7271, 	
+20:31:07 | evaluation 	| elbo: -135.7430, 	image_loss: 85.9776, 	kl: 49.7654, 	
+20:33:47 | epoch: 37/50
+20:33:47 | training 	| elbo: -145.8114, 	image_loss: 94.0724, 	kl: 51.7389, 	
+20:33:47 | evaluation 	| elbo: -135.2611, 	image_loss: 84.9642, 	kl: 50.2968, 	
+20:36:27 | epoch: 38/50
+20:36:27 | training 	| elbo: -145.7836, 	image_loss: 94.0559, 	kl: 51.7277, 	
+20:36:27 | evaluation 	| elbo: -135.1870, 	image_loss: 84.5926, 	kl: 50.5944, 	
+20:39:07 | epoch: 39/50
+20:39:07 | training 	| elbo: -145.7493, 	image_loss: 94.0560, 	kl: 51.6934, 	
+20:39:07 | evaluation 	| elbo: -135.5916, 	image_loss: 85.7224, 	kl: 49.8692, 	
+20:41:47 | epoch: 40/50
+20:41:47 | training 	| elbo: -145.7592, 	image_loss: 94.0462, 	kl: 51.7130, 	
+20:41:47 | evaluation 	| elbo: -135.6068, 	image_loss: 84.6294, 	kl: 50.9774, 	
+20:44:27 | epoch: 41/50
+20:44:27 | training 	| elbo: -145.6248, 	image_loss: 93.9274, 	kl: 51.6975, 	
+20:44:27 | evaluation 	| elbo: -134.7455, 	image_loss: 84.3176, 	kl: 50.4279, 	
+20:47:07 | epoch: 42/50
+20:47:07 | training 	| elbo: -145.6489, 	image_loss: 93.9587, 	kl: 51.6902, 	
+20:47:07 | evaluation 	| elbo: -135.8007, 	image_loss: 86.0361, 	kl: 49.7647, 	
+20:49:47 | epoch: 43/50
+20:49:48 | training 	| elbo: -145.6184, 	image_loss: 93.8983, 	kl: 51.7201, 	
+20:49:48 | evaluation 	| elbo: -135.1835, 	image_loss: 84.9777, 	kl: 50.2057, 	
+20:52:28 | epoch: 44/50
+20:52:28 | training 	| elbo: -145.5316, 	image_loss: 93.8110, 	kl: 51.7206, 	
+20:52:28 | evaluation 	| elbo: -135.0655, 	image_loss: 84.1421, 	kl: 50.9235, 	
+20:55:08 | epoch: 45/50
+20:55:08 | training 	| elbo: -145.5842, 	image_loss: 93.8932, 	kl: 51.6910, 	
+20:55:08 | evaluation 	| elbo: -135.7130, 	image_loss: 85.7334, 	kl: 49.9796, 	
+20:57:47 | epoch: 46/50
+20:57:48 | training 	| elbo: -145.5325, 	image_loss: 93.8425, 	kl: 51.6900, 	
+20:57:48 | evaluation 	| elbo: -134.9044, 	image_loss: 85.3695, 	kl: 49.5349, 	
+21:00:27 | epoch: 47/50
+21:00:28 | training 	| elbo: -145.5046, 	image_loss: 93.8053, 	kl: 51.6994, 	
+21:00:28 | evaluation 	| elbo: -135.0854, 	image_loss: 84.4798, 	kl: 50.6056, 	
+21:03:07 | epoch: 48/50
+21:03:07 | training 	| elbo: -145.4496, 	image_loss: 93.7534, 	kl: 51.6961, 	
+21:03:07 | evaluation 	| elbo: -135.0165, 	image_loss: 84.9297, 	kl: 50.0868, 	
+21:05:47 | epoch: 49/50
+21:05:47 | training 	| elbo: -145.4053, 	image_loss: 93.7296, 	kl: 51.6756, 	
+21:05:47 | evaluation 	| elbo: -134.8865, 	image_loss: 84.6680, 	kl: 50.2185, 	
+21:05:47 | finished training
+21:05:47 | Plotting VAE performance
+21:05:48 | Save VAE parameters
+21:05:49 | Using all metadata
+21:05:49 | loaded metadata
+21:05:49 | loading images
+21:05:49 | Loading images from images.pt file
+21:08:31 | loaded images
+21:08:48 | Starting downstream tasks
+21:08:48 | Extract a few images
+21:08:51 | saved images
+21:08:51 | Calculate latent representation for all images
+21:08:52 | Profiling 0/476 batches of size 1024
+21:08:52 | Profiling 1/476 batches of size 1024
+21:08:52 | Profiling 2/476 batches of size 1024
+21:08:52 | Profiling 3/476 batches of size 1024
+21:08:52 | Profiling 4/476 batches of size 1024
+21:08:52 | Profiling 5/476 batches of size 1024
+21:08:52 | Profiling 6/476 batches of size 1024
+21:08:52 | Profiling 7/476 batches of size 1024
+21:08:53 | Profiling 8/476 batches of size 1024
+21:08:53 | Profiling 9/476 batches of size 1024
+21:08:53 | Profiling 10/476 batches of size 1024
+21:08:53 | Profiling 11/476 batches of size 1024
+21:08:53 | Profiling 12/476 batches of size 1024
+21:08:53 | Profiling 13/476 batches of size 1024
+21:08:53 | Profiling 14/476 batches of size 1024
+21:08:53 | Profiling 15/476 batches of size 1024
+21:08:53 | Profiling 16/476 batches of size 1024
+21:08:53 | Profiling 17/476 batches of size 1024
+21:08:53 | Profiling 18/476 batches of size 1024
+21:08:53 | Profiling 19/476 batches of size 1024
+21:08:53 | Profiling 20/476 batches of size 1024
+21:08:53 | Profiling 21/476 batches of size 1024
+21:08:54 | Profiling 22/476 batches of size 1024
+21:08:54 | Profiling 23/476 batches of size 1024
+21:08:54 | Profiling 24/476 batches of size 1024
+21:08:54 | Profiling 25/476 batches of size 1024
+21:08:54 | Profiling 26/476 batches of size 1024
+21:08:54 | Profiling 27/476 batches of size 1024
+21:08:54 | Profiling 28/476 batches of size 1024
+21:08:54 | Profiling 29/476 batches of size 1024
+21:08:54 | Profiling 30/476 batches of size 1024
+21:08:54 | Profiling 31/476 batches of size 1024
+21:08:54 | Profiling 32/476 batches of size 1024
+21:08:54 | Profiling 33/476 batches of size 1024
+21:08:55 | Profiling 34/476 batches of size 1024
+21:08:55 | Profiling 35/476 batches of size 1024
+21:08:55 | Profiling 36/476 batches of size 1024
+21:08:55 | Profiling 37/476 batches of size 1024
+21:08:55 | Profiling 38/476 batches of size 1024
+21:08:55 | Profiling 39/476 batches of size 1024
+21:08:55 | Profiling 40/476 batches of size 1024
+21:08:55 | Profiling 41/476 batches of size 1024
+21:08:55 | Profiling 42/476 batches of size 1024
+21:08:55 | Profiling 43/476 batches of size 1024
+21:08:55 | Profiling 44/476 batches of size 1024
+21:08:56 | Profiling 45/476 batches of size 1024
+21:08:56 | Profiling 46/476 batches of size 1024
+21:08:56 | Profiling 47/476 batches of size 1024
+21:08:56 | Profiling 48/476 batches of size 1024
+21:08:56 | Profiling 49/476 batches of size 1024
+21:08:56 | Profiling 50/476 batches of size 1024
+21:08:56 | Profiling 51/476 batches of size 1024
+21:08:56 | Profiling 52/476 batches of size 1024
+21:08:56 | Profiling 53/476 batches of size 1024
+21:08:57 | Profiling 54/476 batches of size 1024
+21:08:57 | Profiling 55/476 batches of size 1024
+21:08:57 | Profiling 56/476 batches of size 1024
+21:08:57 | Profiling 57/476 batches of size 1024
+21:08:57 | Profiling 58/476 batches of size 1024
+21:08:57 | Profiling 59/476 batches of size 1024
+21:08:57 | Profiling 60/476 batches of size 1024
+21:08:57 | Profiling 61/476 batches of size 1024
+21:08:57 | Profiling 62/476 batches of size 1024
+21:08:58 | Profiling 63/476 batches of size 1024
+21:08:58 | Profiling 64/476 batches of size 1024
+21:08:58 | Profiling 65/476 batches of size 1024
+21:08:58 | Profiling 66/476 batches of size 1024
+21:08:58 | Profiling 67/476 batches of size 1024
+21:08:58 | Profiling 68/476 batches of size 1024
+21:08:58 | Profiling 69/476 batches of size 1024
+21:08:58 | Profiling 70/476 batches of size 1024
+21:08:59 | Profiling 71/476 batches of size 1024
+21:08:59 | Profiling 72/476 batches of size 1024
+21:08:59 | Profiling 73/476 batches of size 1024
+21:08:59 | Profiling 74/476 batches of size 1024
+21:08:59 | Profiling 75/476 batches of size 1024
+21:08:59 | Profiling 76/476 batches of size 1024
+21:08:59 | Profiling 77/476 batches of size 1024
+21:08:59 | Profiling 78/476 batches of size 1024
+21:09:00 | Profiling 79/476 batches of size 1024
+21:09:00 | Profiling 80/476 batches of size 1024
+21:09:00 | Profiling 81/476 batches of size 1024
+21:09:00 | Profiling 82/476 batches of size 1024
+21:09:00 | Profiling 83/476 batches of size 1024
+21:09:00 | Profiling 84/476 batches of size 1024
+21:09:00 | Profiling 85/476 batches of size 1024
+21:09:01 | Profiling 86/476 batches of size 1024
+21:09:01 | Profiling 87/476 batches of size 1024
+21:09:01 | Profiling 88/476 batches of size 1024
+21:09:01 | Profiling 89/476 batches of size 1024
+21:09:01 | Profiling 90/476 batches of size 1024
+21:09:01 | Profiling 91/476 batches of size 1024
+21:09:01 | Profiling 92/476 batches of size 1024
+21:09:02 | Profiling 93/476 batches of size 1024
+21:09:02 | Profiling 94/476 batches of size 1024
+21:09:02 | Profiling 95/476 batches of size 1024
+21:09:02 | Profiling 96/476 batches of size 1024
+21:09:02 | Profiling 97/476 batches of size 1024
+21:09:02 | Profiling 98/476 batches of size 1024
+21:09:02 | Profiling 99/476 batches of size 1024
+21:09:03 | Profiling 100/476 batches of size 1024
+21:09:03 | Profiling 101/476 batches of size 1024
+21:09:03 | Profiling 102/476 batches of size 1024
+21:09:03 | Profiling 103/476 batches of size 1024
+21:09:03 | Profiling 104/476 batches of size 1024
+21:09:03 | Profiling 105/476 batches of size 1024
+21:09:04 | Profiling 106/476 batches of size 1024
+21:09:04 | Profiling 107/476 batches of size 1024
+21:09:04 | Profiling 108/476 batches of size 1024
+21:09:04 | Profiling 109/476 batches of size 1024
+21:09:04 | Profiling 110/476 batches of size 1024
+21:09:04 | Profiling 111/476 batches of size 1024
+21:09:05 | Profiling 112/476 batches of size 1024
+21:09:05 | Profiling 113/476 batches of size 1024
+21:09:05 | Profiling 114/476 batches of size 1024
+21:09:05 | Profiling 115/476 batches of size 1024
+21:09:05 | Profiling 116/476 batches of size 1024
+21:09:05 | Profiling 117/476 batches of size 1024
+21:09:06 | Profiling 118/476 batches of size 1024
+21:09:06 | Profiling 119/476 batches of size 1024
+21:09:06 | Profiling 120/476 batches of size 1024
+21:09:06 | Profiling 121/476 batches of size 1024
+21:09:06 | Profiling 122/476 batches of size 1024
+21:09:06 | Profiling 123/476 batches of size 1024
+21:09:07 | Profiling 124/476 batches of size 1024
+21:09:07 | Profiling 125/476 batches of size 1024
+21:09:07 | Profiling 126/476 batches of size 1024
+21:09:07 | Profiling 127/476 batches of size 1024
+21:09:07 | Profiling 128/476 batches of size 1024
+21:09:08 | Profiling 129/476 batches of size 1024
+21:09:08 | Profiling 130/476 batches of size 1024
+21:09:08 | Profiling 131/476 batches of size 1024
+21:09:08 | Profiling 132/476 batches of size 1024
+21:09:08 | Profiling 133/476 batches of size 1024
+21:09:08 | Profiling 134/476 batches of size 1024
+21:09:09 | Profiling 135/476 batches of size 1024
+21:09:09 | Profiling 136/476 batches of size 1024
+21:09:09 | Profiling 137/476 batches of size 1024
+21:09:09 | Profiling 138/476 batches of size 1024
+21:09:09 | Profiling 139/476 batches of size 1024
+21:09:10 | Profiling 140/476 batches of size 1024
+21:09:10 | Profiling 141/476 batches of size 1024
+21:09:10 | Profiling 142/476 batches of size 1024
+21:09:10 | Profiling 143/476 batches of size 1024
+21:09:10 | Profiling 144/476 batches of size 1024
+21:09:11 | Profiling 145/476 batches of size 1024
+21:09:11 | Profiling 146/476 batches of size 1024
+21:09:11 | Profiling 147/476 batches of size 1024
+21:09:11 | Profiling 148/476 batches of size 1024
+21:09:11 | Profiling 149/476 batches of size 1024
+21:09:12 | Profiling 150/476 batches of size 1024
+21:09:12 | Profiling 151/476 batches of size 1024
+21:09:12 | Profiling 152/476 batches of size 1024
+21:09:12 | Profiling 153/476 batches of size 1024
+21:09:12 | Profiling 154/476 batches of size 1024
+21:09:13 | Profiling 155/476 batches of size 1024
+21:09:13 | Profiling 156/476 batches of size 1024
+21:09:13 | Profiling 157/476 batches of size 1024
+21:09:13 | Profiling 158/476 batches of size 1024
+21:09:14 | Profiling 159/476 batches of size 1024
+21:09:14 | Profiling 160/476 batches of size 1024
+21:09:14 | Profiling 161/476 batches of size 1024
+21:09:14 | Profiling 162/476 batches of size 1024
+21:09:14 | Profiling 163/476 batches of size 1024
+21:09:15 | Profiling 164/476 batches of size 1024
+21:09:15 | Profiling 165/476 batches of size 1024
+21:09:15 | Profiling 166/476 batches of size 1024
+21:09:15 | Profiling 167/476 batches of size 1024
+21:09:16 | Profiling 168/476 batches of size 1024
+21:09:16 | Profiling 169/476 batches of size 1024
+21:09:16 | Profiling 170/476 batches of size 1024
+21:09:16 | Profiling 171/476 batches of size 1024
+21:09:16 | Profiling 172/476 batches of size 1024
+21:09:17 | Profiling 173/476 batches of size 1024
+21:09:17 | Profiling 174/476 batches of size 1024
+21:09:17 | Profiling 175/476 batches of size 1024
+21:09:17 | Profiling 176/476 batches of size 1024
+21:09:18 | Profiling 177/476 batches of size 1024
+21:09:18 | Profiling 178/476 batches of size 1024
+21:09:18 | Profiling 179/476 batches of size 1024
+21:09:18 | Profiling 180/476 batches of size 1024
+21:09:19 | Profiling 181/476 batches of size 1024
+21:09:19 | Profiling 182/476 batches of size 1024
+21:09:19 | Profiling 183/476 batches of size 1024
+21:09:19 | Profiling 184/476 batches of size 1024
+21:09:20 | Profiling 185/476 batches of size 1024
+21:09:20 | Profiling 186/476 batches of size 1024
+21:09:20 | Profiling 187/476 batches of size 1024
+21:09:21 | Profiling 188/476 batches of size 1024
+21:09:21 | Profiling 189/476 batches of size 1024
+21:09:21 | Profiling 190/476 batches of size 1024
+21:09:21 | Profiling 191/476 batches of size 1024
+21:09:22 | Profiling 192/476 batches of size 1024
+21:09:22 | Profiling 193/476 batches of size 1024
+21:09:22 | Profiling 194/476 batches of size 1024
+21:09:22 | Profiling 195/476 batches of size 1024
+21:09:23 | Profiling 196/476 batches of size 1024
+21:09:23 | Profiling 197/476 batches of size 1024
+21:09:23 | Profiling 198/476 batches of size 1024
+21:09:23 | Profiling 199/476 batches of size 1024
+21:09:24 | Profiling 200/476 batches of size 1024
+21:09:24 | Profiling 201/476 batches of size 1024
+21:09:24 | Profiling 202/476 batches of size 1024
+21:09:25 | Profiling 203/476 batches of size 1024
+21:09:25 | Profiling 204/476 batches of size 1024
+21:09:25 | Profiling 205/476 batches of size 1024
+21:09:25 | Profiling 206/476 batches of size 1024
+21:09:26 | Profiling 207/476 batches of size 1024
+21:09:26 | Profiling 208/476 batches of size 1024
+21:09:26 | Profiling 209/476 batches of size 1024
+21:09:26 | Profiling 210/476 batches of size 1024
+21:09:27 | Profiling 211/476 batches of size 1024
+21:09:27 | Profiling 212/476 batches of size 1024
+21:09:27 | Profiling 213/476 batches of size 1024
+21:09:28 | Profiling 214/476 batches of size 1024
+21:09:28 | Profiling 215/476 batches of size 1024
+21:09:28 | Profiling 216/476 batches of size 1024
+21:09:28 | Profiling 217/476 batches of size 1024
+21:09:29 | Profiling 218/476 batches of size 1024
+21:09:29 | Profiling 219/476 batches of size 1024
+21:09:29 | Profiling 220/476 batches of size 1024
+21:09:30 | Profiling 221/476 batches of size 1024
+21:09:30 | Profiling 222/476 batches of size 1024
+21:09:30 | Profiling 223/476 batches of size 1024
+21:09:31 | Profiling 224/476 batches of size 1024
+21:09:31 | Profiling 225/476 batches of size 1024
+21:09:31 | Profiling 226/476 batches of size 1024
+21:09:31 | Profiling 227/476 batches of size 1024
+21:09:32 | Profiling 228/476 batches of size 1024
+21:09:32 | Profiling 229/476 batches of size 1024
+21:09:32 | Profiling 230/476 batches of size 1024
+21:09:33 | Profiling 231/476 batches of size 1024
+21:09:33 | Profiling 232/476 batches of size 1024
+21:09:33 | Profiling 233/476 batches of size 1024
+21:09:34 | Profiling 234/476 batches of size 1024
+21:09:34 | Profiling 235/476 batches of size 1024
+21:09:34 | Profiling 236/476 batches of size 1024
+21:09:34 | Profiling 237/476 batches of size 1024
+21:09:35 | Profiling 238/476 batches of size 1024
+21:09:35 | Profiling 239/476 batches of size 1024
+21:09:35 | Profiling 240/476 batches of size 1024
+21:09:36 | Profiling 241/476 batches of size 1024
+21:09:36 | Profiling 242/476 batches of size 1024
+21:09:36 | Profiling 243/476 batches of size 1024
+21:09:37 | Profiling 244/476 batches of size 1024
+21:09:37 | Profiling 245/476 batches of size 1024
+21:09:37 | Profiling 246/476 batches of size 1024
+21:09:38 | Profiling 247/476 batches of size 1024
+21:09:38 | Profiling 248/476 batches of size 1024
+21:09:38 | Profiling 249/476 batches of size 1024
+21:09:39 | Profiling 250/476 batches of size 1024
+21:09:39 | Profiling 251/476 batches of size 1024
+21:09:39 | Profiling 252/476 batches of size 1024
+21:09:40 | Profiling 253/476 batches of size 1024
+21:09:40 | Profiling 254/476 batches of size 1024
+21:09:40 | Profiling 255/476 batches of size 1024
+21:09:41 | Profiling 256/476 batches of size 1024
+21:09:41 | Profiling 257/476 batches of size 1024
+21:09:41 | Profiling 258/476 batches of size 1024
+21:09:42 | Profiling 259/476 batches of size 1024
+21:09:42 | Profiling 260/476 batches of size 1024
+21:09:42 | Profiling 261/476 batches of size 1024
+21:09:43 | Profiling 262/476 batches of size 1024
+21:09:43 | Profiling 263/476 batches of size 1024
+21:09:43 | Profiling 264/476 batches of size 1024
+21:09:44 | Profiling 265/476 batches of size 1024
+21:09:44 | Profiling 266/476 batches of size 1024
+21:09:44 | Profiling 267/476 batches of size 1024
+21:09:45 | Profiling 268/476 batches of size 1024
+21:09:45 | Profiling 269/476 batches of size 1024
+21:09:45 | Profiling 270/476 batches of size 1024
+21:09:46 | Profiling 271/476 batches of size 1024
+21:09:46 | Profiling 272/476 batches of size 1024
+21:09:46 | Profiling 273/476 batches of size 1024
+21:09:47 | Profiling 274/476 batches of size 1024
+21:09:47 | Profiling 275/476 batches of size 1024
+21:09:47 | Profiling 276/476 batches of size 1024
+21:09:48 | Profiling 277/476 batches of size 1024
+21:09:48 | Profiling 278/476 batches of size 1024
+21:09:48 | Profiling 279/476 batches of size 1024
+21:09:49 | Profiling 280/476 batches of size 1024
+21:09:49 | Profiling 281/476 batches of size 1024
+21:09:49 | Profiling 282/476 batches of size 1024
+21:09:50 | Profiling 283/476 batches of size 1024
+21:09:50 | Profiling 284/476 batches of size 1024
+21:09:51 | Profiling 285/476 batches of size 1024
+21:09:51 | Profiling 286/476 batches of size 1024
+21:09:51 | Profiling 287/476 batches of size 1024
+21:09:52 | Profiling 288/476 batches of size 1024
+21:09:52 | Profiling 289/476 batches of size 1024
+21:09:52 | Profiling 290/476 batches of size 1024
+21:09:53 | Profiling 291/476 batches of size 1024
+21:09:53 | Profiling 292/476 batches of size 1024
+21:09:53 | Profiling 293/476 batches of size 1024
+21:09:54 | Profiling 294/476 batches of size 1024
+21:09:54 | Profiling 295/476 batches of size 1024
+21:09:55 | Profiling 296/476 batches of size 1024
+21:09:55 | Profiling 297/476 batches of size 1024
+21:09:55 | Profiling 298/476 batches of size 1024
+21:09:56 | Profiling 299/476 batches of size 1024
+21:09:56 | Profiling 300/476 batches of size 1024
+21:09:56 | Profiling 301/476 batches of size 1024
+21:09:57 | Profiling 302/476 batches of size 1024
+21:09:57 | Profiling 303/476 batches of size 1024
+21:09:58 | Profiling 304/476 batches of size 1024
+21:09:58 | Profiling 305/476 batches of size 1024
+21:09:58 | Profiling 306/476 batches of size 1024
+21:09:59 | Profiling 307/476 batches of size 1024
+21:09:59 | Profiling 308/476 batches of size 1024
+21:10:00 | Profiling 309/476 batches of size 1024
+21:10:00 | Profiling 310/476 batches of size 1024
+21:10:00 | Profiling 311/476 batches of size 1024
+21:10:01 | Profiling 312/476 batches of size 1024
+21:10:01 | Profiling 313/476 batches of size 1024
+21:10:01 | Profiling 314/476 batches of size 1024
+21:10:02 | Profiling 315/476 batches of size 1024
+21:10:02 | Profiling 316/476 batches of size 1024
+21:10:03 | Profiling 317/476 batches of size 1024
+21:10:03 | Profiling 318/476 batches of size 1024
+21:10:03 | Profiling 319/476 batches of size 1024
+21:10:04 | Profiling 320/476 batches of size 1024
+21:10:04 | Profiling 321/476 batches of size 1024
+21:10:05 | Profiling 322/476 batches of size 1024
+21:10:05 | Profiling 323/476 batches of size 1024
+21:10:05 | Profiling 324/476 batches of size 1024
+21:10:06 | Profiling 325/476 batches of size 1024
+21:10:06 | Profiling 326/476 batches of size 1024
+21:10:07 | Profiling 327/476 batches of size 1024
+21:10:07 | Profiling 328/476 batches of size 1024
+21:10:07 | Profiling 329/476 batches of size 1024
+21:10:08 | Profiling 330/476 batches of size 1024
+21:10:08 | Profiling 331/476 batches of size 1024
+21:10:09 | Profiling 332/476 batches of size 1024
+21:10:09 | Profiling 333/476 batches of size 1024
+21:10:10 | Profiling 334/476 batches of size 1024
+21:10:10 | Profiling 335/476 batches of size 1024
+21:10:10 | Profiling 336/476 batches of size 1024
+21:10:11 | Profiling 337/476 batches of size 1024
+21:10:11 | Profiling 338/476 batches of size 1024
+21:10:12 | Profiling 339/476 batches of size 1024
+21:10:12 | Profiling 340/476 batches of size 1024
+21:10:13 | Profiling 341/476 batches of size 1024
+21:10:13 | Profiling 342/476 batches of size 1024
+21:10:13 | Profiling 343/476 batches of size 1024
+21:10:14 | Profiling 344/476 batches of size 1024
+21:10:14 | Profiling 345/476 batches of size 1024
+21:10:15 | Profiling 346/476 batches of size 1024
+21:10:15 | Profiling 347/476 batches of size 1024
+21:10:15 | Profiling 348/476 batches of size 1024
+21:10:16 | Profiling 349/476 batches of size 1024
+21:10:16 | Profiling 350/476 batches of size 1024
+21:10:17 | Profiling 351/476 batches of size 1024
+21:10:17 | Profiling 352/476 batches of size 1024
+21:10:18 | Profiling 353/476 batches of size 1024
+21:10:18 | Profiling 354/476 batches of size 1024
+21:10:19 | Profiling 355/476 batches of size 1024
+21:10:19 | Profiling 356/476 batches of size 1024
+21:10:19 | Profiling 357/476 batches of size 1024
+21:10:20 | Profiling 358/476 batches of size 1024
+21:10:20 | Profiling 359/476 batches of size 1024
+21:10:21 | Profiling 360/476 batches of size 1024
+21:10:21 | Profiling 361/476 batches of size 1024
+21:10:22 | Profiling 362/476 batches of size 1024
+21:10:22 | Profiling 363/476 batches of size 1024
+21:10:23 | Profiling 364/476 batches of size 1024
+21:10:23 | Profiling 365/476 batches of size 1024
+21:10:23 | Profiling 366/476 batches of size 1024
+21:10:24 | Profiling 367/476 batches of size 1024
+21:10:24 | Profiling 368/476 batches of size 1024
+21:10:25 | Profiling 369/476 batches of size 1024
+21:10:25 | Profiling 370/476 batches of size 1024
+21:10:26 | Profiling 371/476 batches of size 1024
+21:10:26 | Profiling 372/476 batches of size 1024
+21:10:27 | Profiling 373/476 batches of size 1024
+21:10:27 | Profiling 374/476 batches of size 1024
+21:10:28 | Profiling 375/476 batches of size 1024
+21:10:28 | Profiling 376/476 batches of size 1024
+21:10:28 | Profiling 377/476 batches of size 1024
+21:10:29 | Profiling 378/476 batches of size 1024
+21:10:29 | Profiling 379/476 batches of size 1024
+21:10:30 | Profiling 380/476 batches of size 1024
+21:10:30 | Profiling 381/476 batches of size 1024
+21:10:31 | Profiling 382/476 batches of size 1024
+21:10:31 | Profiling 383/476 batches of size 1024
+21:10:32 | Profiling 384/476 batches of size 1024
+21:10:32 | Profiling 385/476 batches of size 1024
+21:10:33 | Profiling 386/476 batches of size 1024
+21:10:33 | Profiling 387/476 batches of size 1024
+21:10:34 | Profiling 388/476 batches of size 1024
+21:10:34 | Profiling 389/476 batches of size 1024
+21:10:34 | Profiling 390/476 batches of size 1024
+21:10:35 | Profiling 391/476 batches of size 1024
+21:10:35 | Profiling 392/476 batches of size 1024
+21:10:36 | Profiling 393/476 batches of size 1024
+21:10:36 | Profiling 394/476 batches of size 1024
+21:10:37 | Profiling 395/476 batches of size 1024
+21:10:37 | Profiling 396/476 batches of size 1024
+21:10:38 | Profiling 397/476 batches of size 1024
+21:10:38 | Profiling 398/476 batches of size 1024
+21:10:39 | Profiling 399/476 batches of size 1024
+21:10:39 | Profiling 400/476 batches of size 1024
+21:10:40 | Profiling 401/476 batches of size 1024
+21:10:40 | Profiling 402/476 batches of size 1024
+21:10:41 | Profiling 403/476 batches of size 1024
+21:10:41 | Profiling 404/476 batches of size 1024
+21:10:42 | Profiling 405/476 batches of size 1024
+21:10:42 | Profiling 406/476 batches of size 1024
+21:10:43 | Profiling 407/476 batches of size 1024
+21:10:43 | Profiling 408/476 batches of size 1024
+21:10:44 | Profiling 409/476 batches of size 1024
+21:10:44 | Profiling 410/476 batches of size 1024
+21:10:45 | Profiling 411/476 batches of size 1024
+21:10:45 | Profiling 412/476 batches of size 1024
+21:10:46 | Profiling 413/476 batches of size 1024
+21:10:46 | Profiling 414/476 batches of size 1024
+21:10:47 | Profiling 415/476 batches of size 1024
+21:10:47 | Profiling 416/476 batches of size 1024
+21:10:48 | Profiling 417/476 batches of size 1024
+21:10:48 | Profiling 418/476 batches of size 1024
+21:10:49 | Profiling 419/476 batches of size 1024
+21:10:49 | Profiling 420/476 batches of size 1024
+21:10:50 | Profiling 421/476 batches of size 1024
+21:10:50 | Profiling 422/476 batches of size 1024
+21:10:51 | Profiling 423/476 batches of size 1024
+21:10:51 | Profiling 424/476 batches of size 1024
+21:10:52 | Profiling 425/476 batches of size 1024
+21:10:52 | Profiling 426/476 batches of size 1024
+21:10:53 | Profiling 427/476 batches of size 1024
+21:10:53 | Profiling 428/476 batches of size 1024
+21:10:54 | Profiling 429/476 batches of size 1024
+21:10:54 | Profiling 430/476 batches of size 1024
+21:10:55 | Profiling 431/476 batches of size 1024
+21:10:55 | Profiling 432/476 batches of size 1024
+21:10:56 | Profiling 433/476 batches of size 1024
+21:10:56 | Profiling 434/476 batches of size 1024
+21:10:57 | Profiling 435/476 batches of size 1024
+21:10:57 | Profiling 436/476 batches of size 1024
+21:10:58 | Profiling 437/476 batches of size 1024
+21:10:58 | Profiling 438/476 batches of size 1024
+21:10:59 | Profiling 439/476 batches of size 1024
+21:10:59 | Profiling 440/476 batches of size 1024
+21:11:00 | Profiling 441/476 batches of size 1024
+21:11:01 | Profiling 442/476 batches of size 1024
+21:11:01 | Profiling 443/476 batches of size 1024
+21:11:02 | Profiling 444/476 batches of size 1024
+21:11:02 | Profiling 445/476 batches of size 1024
+21:11:03 | Profiling 446/476 batches of size 1024
+21:11:03 | Profiling 447/476 batches of size 1024
+21:11:04 | Profiling 448/476 batches of size 1024
+21:11:04 | Profiling 449/476 batches of size 1024
+21:11:05 | Profiling 450/476 batches of size 1024
+21:11:05 | Profiling 451/476 batches of size 1024
+21:11:06 | Profiling 452/476 batches of size 1024
+21:11:06 | Profiling 453/476 batches of size 1024
+21:11:07 | Profiling 454/476 batches of size 1024
+21:11:07 | Profiling 455/476 batches of size 1024
+21:11:08 | Profiling 456/476 batches of size 1024
+21:11:08 | Profiling 457/476 batches of size 1024
+21:11:09 | Profiling 458/476 batches of size 1024
+21:11:10 | Profiling 459/476 batches of size 1024
+21:11:10 | Profiling 460/476 batches of size 1024
+21:11:11 | Profiling 461/476 batches of size 1024
+21:11:11 | Profiling 462/476 batches of size 1024
+21:11:12 | Profiling 463/476 batches of size 1024
+21:11:12 | Profiling 464/476 batches of size 1024
+21:11:13 | Profiling 465/476 batches of size 1024
+21:11:13 | Profiling 466/476 batches of size 1024
+21:11:14 | Profiling 467/476 batches of size 1024
+21:11:15 | Profiling 468/476 batches of size 1024
+21:11:15 | Profiling 469/476 batches of size 1024
+21:11:16 | Profiling 470/476 batches of size 1024
+21:11:16 | Profiling 471/476 batches of size 1024
+21:11:17 | Profiling 472/476 batches of size 1024
+21:11:17 | Profiling 473/476 batches of size 1024
+21:11:18 | Profiling 474/476 batches of size 1024
+21:11:18 | Profiling 475/476 batches of size 1024
+21:11:19 | Profiling 476/476 batches of size 972
+21:11:19 | Done calculating latent space
+21:11:19 | Plotting interpolations of reconstructions
+21:11:19 | doing: dump/outputs_2023-01-02 - 18-47-44/interpolations/ALLN_100.0.png
+21:11:30 | Plotting latent space heatmap
+21:12:30 | Nearest neighbor classification (Not-Same-Compound)
+21:12:35 | Model Accuracy: 77.96398046398046
+21:12:35 | Model Precision: 80.62493062493063
+21:12:35 | Model Recall: 77.96398046398048
+21:12:35 | Model F1: 79.27213161363831
+21:12:35 | output_folder is: dump/outputs_2023-01-02 - 18-47-44/
+21:12:35 | script done.
